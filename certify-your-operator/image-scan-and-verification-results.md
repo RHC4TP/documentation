@@ -14,13 +14,12 @@ Once the image has completed the scan in Red Hat Connect repository, the image w
 
 ![](https://lh4.googleusercontent.com/0ff1SFj6Zi13yXPvQdSl12lqEu1aSGQeNNMeawneaCiEXp1NQtQBh9SPo2oepfmb1oZ2ei_f2YMCGcsNFQ3W7NLtH_FkXZpD6a0s8zM8x3OovctfHnmffnwMWmXqyZmf02tZVHRR)
 
-The “View” button will expand on the scan results. The “Publish” button will publish the image to the Red Hat Container Catalog. It will change to “Unpublish” once and image has been published. The “Remove” button allows you to remove an image that you do not want to use or need anymore.  
-
+The “View” button will expand on the scan results. The “Publish” button will publish the image to the Red Hat Container Catalog. It will change to “Unpublish” once and image has been published. The “Remove” button allows you to remove an image that you do not want to use or need anymore.
 
 ## Image Verification
 
 {% hint style="warning" %}
-If the image returns a Passed scan status but the Publish button is still blocked, verify that you have completed the Certification Checklist. 
+If the image returns a Passed scan status but the Publish button is still blocked, verify that you have completed the Certification Checklist.
 {% endhint %}
 
 If the image returns a “Failed” scan status, the results will automatically be displayed. Click on the name of the failed item \(in this example, “has\_licenses”\) for reference to the policy guide.

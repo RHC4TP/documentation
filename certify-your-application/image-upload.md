@@ -70,7 +70,7 @@ Cut and paste the following line to your terminal.
 # docker login -u unused -e none scan.connect.redhat.com
 ```
 
-When prompted for the password copy and paste the Registry Key located on the Upload Your Image tab in the project. 
+When prompted for the password copy and paste the Registry Key located on the Upload Your Image tab in the project.
 
 {% hint style="warning" %}
 This Registry Key is unique per project, please make sure you are using the correct password for the project you are working on.

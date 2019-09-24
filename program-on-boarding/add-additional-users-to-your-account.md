@@ -1,7 +1,6 @@
 # Add Additional Users to Your Account
 
-From the [Red Hat Partner Connect web portal](https://connect.redhat.com/),  click on the User icon at the top right of the page and select Company Dashboard from the drop-down menu.  
-****
+From the [Red Hat Partner Connect web portal](https://connect.redhat.com/), click on the User icon at the top right of the page and select Company Dashboard from the drop-down menu.
 
 ![](https://lh6.googleusercontent.com/l7ANFnXm5XzPpfeJYDZJdoDhEMrc0bZmpdy8cqtB9Hz53syYrnPcONB2MVXZ83CZDKIDCDQZ9kcCVKbXH85z61AtD8-t0Qb9-MdWyxmDuc82xk9F0Z2zXI6ccFsu2QMtBjIDfMnf)
 

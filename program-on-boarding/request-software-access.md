@@ -8,6 +8,5 @@ On the Red Hat Software Access Page, scroll down to **PLATFORMS** and click **RE
 
 ![](https://lh6.googleusercontent.com/oPHm-vsK584fiMe2EynDQ0Qss03I2cMasd221wUgfFkt6lKGk79Kx88kSs7YdklNrmYpEFuTZ4trsqx9jgnMDgMYVIDXvUCi4UOYOCo2I4Axxk-GyFZ1XWv392Li1kS6_8gt_Tmy)
 
-You will receive an email once software access has been granted.  
-
+You will receive an email once software access has been granted.
 

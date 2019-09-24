@@ -2,7 +2,7 @@
 
 When you’re ready to certify your product on Red Hat Software, you will need to request Zone access and then create a Certification Project.
 
-From the [Red Hat Partner Connect web portal](https://connect.redhat.com/),  click LOG IN at the upper right of the page.
+From the [Red Hat Partner Connect web portal](https://connect.redhat.com/), click LOG IN at the upper right of the page.
 
 Click on **COMPANY DASHBOARD**
 
@@ -22,6 +22,5 @@ Under the **RED HAT OPENSHIFT & CONTAINER ZONE**, click **APPLY FOR ZONE ACCESS*
 
 ![](https://lh4.googleusercontent.com/8GgIXO5Djg1u6RYmBYwzH_3zICOGqqqmb6BSbUWm7vUs07gQCF7WFq3ZCHLi4rMHnn0IPjcs0trD_ayngxClW13B72fszU7mSdGSI79qColpgG2K21gRg9Xc0x7518ZVncPeyvpH)
 
-You will be notified via Email upon approval of your Zone Request.  
-
+You will be notified via Email upon approval of your Zone Request.
 

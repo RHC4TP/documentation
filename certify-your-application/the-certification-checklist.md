@@ -2,7 +2,7 @@
 
 Certified containers are applications that meet Red Hat’s best practices for packaging, distribution and maintenance. Certified containers imply a commitment from partners to maintain their images up to date and represent the highest level of trust and supportability for Red Hat customers container-capable platforms, including OpenShift.
 
-For Container Certification, you will need to complete the Certified section of the checklist and publish the image.  To find the checklist for your certification project, go to your project page and select Certification Checklist located on the left menu under Actions.
+For Container Certification, you will need to complete the Certified section of the checklist and publish the image. To find the checklist for your certification project, go to your project page and select Certification Checklist located on the left menu under Actions.
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
@@ -21,7 +21,7 @@ Each item on the Checklist has more information, you can select the drop down ar
 The checklist is separated into the following sections:
 
 * Update your company profile
-  *  This page is to ensure that your company profile is up to date. Edit if necessary.
+  * This page is to ensure that your company profile is up to date. Edit if necessary.
 * Update your product profile
   * This page relates to the product’s profile such as product type, description, repository URL, version, contact distribution list, etc.
 * Accept the Red Hat Container Appendix

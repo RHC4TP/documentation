@@ -1,6 +1,6 @@
 # Dockerfile Requirements
 
-For Step 1 Operator Image Dockerfile requirements are as follows: 
+For Step 1 Operator Image Dockerfile requirements are as follows:
 
 1. Base image must be based on a Red Hat product, e.g. Red Hat Enterprise Linux or Red Hat Universal Base Image. Any images using Ubuntu, Debian, CentOS, etc. as a base will not be certified.
 2. You must configure the required labels \(name, maintainer, vendor, version, release, summary\)
@@ -47,33 +47,32 @@ Your project directory structure should look similar to the hierarchy below. Not
 {% code-tabs %}
 {% code-tabs-item title="my-helm-memcached-operator" %}
 ```bash
-
 my-helm-memcached-operator/
 ├── build
-│   └── Dockerfile
+│   └── Dockerfile
 ├── deploy
-│   ├── crds
-│   │   ├── cache_v1alpha1_memcached_cr.yaml
-│   │   └── cache_v1alpha1_memcached_crd.yaml
-│   ├── operator.yaml
-│   ├── role.yaml
-│   ├── role_binding.yaml
-│   └── service_account.yaml
+│   ├── crds
+│   │   ├── cache_v1alpha1_memcached_cr.yaml
+│   │   └── cache_v1alpha1_memcached_crd.yaml
+│   ├── operator.yaml
+│   ├── role.yaml
+│   ├── role_binding.yaml
+│   └── service_account.yaml
 ├── helm-charts
-│   └── memcached
-│       ├── Chart.yaml
-│       ├── charts
-│       ├── templates
-│       │   ├── NOTES.txt
-│       │   ├── _helpers.tpl
-│       │   ├── deployment.yaml
-│       │   ├── ingress.yaml
-│       │   ├── service.yaml
-│       │   └── tests
-│       │       └── test-connection.yaml
-│       └── values.yaml
+│   └── memcached
+│       ├── Chart.yaml
+│       ├── charts
+│       ├── templates
+│       │   ├── NOTES.txt
+│       │   ├── _helpers.tpl
+│       │   ├── deployment.yaml
+│       │   ├── ingress.yaml
+│       │   ├── service.yaml
+│       │   └── tests
+│       │       └── test-connection.yaml
+│       └── values.yaml
 ├── licenses
-│   └── MIT.txt
+│   └── MIT.txt
 └── watches.yaml
 ```
 {% endcode-tabs-item %}

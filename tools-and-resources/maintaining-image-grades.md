@@ -6,8 +6,7 @@ As software package vulnerabilities are discovered it is important to rebuild co
 
 If a container image falls below an "A" grade, a periodic email from connect@redhat.com will be sent out to the partner contact list.
 
-In order to keep the image up to date, it is recommended that the partner use the Red Hat Connect Build Service located in the Project section of Red Hat Connect. The option Auto-Rebuild will automatically rebuild your container and automatically publish it.  
-****
+In order to keep the image up to date, it is recommended that the partner use the Red Hat Connect Build Service located in the Project section of Red Hat Connect. The option Auto-Rebuild will automatically rebuild your container and automatically publish it.
 
 ![](https://lh3.googleusercontent.com/r4bMlQ7krWNwjC7JYH-BQ9w1yrOmF6U1Mk1JFMybr3-1ViWu2QHLBnJj1ejoiLrVXfsEHuFKtcZ0SOTG1HSkR5_2yBNar0unvRMGZijMAbqXOT4glpqlmqygraG-nfsly9SLOjU6)
 

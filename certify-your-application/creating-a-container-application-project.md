@@ -10,23 +10,23 @@ Scroll down to the RED HAT OPENSHIFT & CONTAINER zone and click **CREATE A PROJE
 
 ![](../.gitbook/assets/project1.png)
 
-Complete the Create New Project Wizard. 
+Complete the Create New Project Wizard.
 
-### 1. Product 
+## 1. Product
 
 ![](../.gitbook/assets/project1%20%281%29.png)
 
-### 2. Container Type 
+## 2. Container Type
 
 Select **Container Application**
 
 ![](../.gitbook/assets/project2.png)
 
-### 3. Release Category
+## 3. Release Category
 
 ![](../.gitbook/assets/project3.png)
 
-### 4. OS Content Type 
+## 4. OS Content Type
 
 {% hint style="danger" %}
 This information cannot be changed after project is created
@@ -34,7 +34,7 @@ This information cannot be changed after project is created
 
 ![](../.gitbook/assets/project4.png)
 
-### 5. Distribution Method
+## 5. Distribution Method
 
 {% hint style="danger" %}
 This information cannot be changed after project is created
@@ -42,5 +42,5 @@ This information cannot be changed after project is created
 
 ![](../.gitbook/assets/project5.png)
 
-Once you have finalized all your selection click on **Create Project.** 
+Once you have finalized all your selection click on **Create Project.**
 

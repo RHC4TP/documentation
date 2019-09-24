@@ -1,14 +1,12 @@
 # Export Compliance
 
-
-
 This section references a set of questions provided by the Red Hat legal team for evaluation of export compliance by third party software vendors. The resource links and questions should be reviewed and answered by a legal representative of the partner. Completion and returning this document does not guarantee export compliance approval but begins the evaluation process by Red Hat. Depending on the answers provided, a set of follow-up questions may be necessary.
 
 In the event that you have insufficient information to complete the questionnaire, some additional resources are provided in Part 2 below.
 
 The evaluation process is outlined below:
 
-**Step 1:**  Partner completes the [**ISV Registry Export Compliance Questionnaire**](https://docs.google.com/forms/d/e/1FAIpQLSczOO7juMCE2KN3aG7C9LK8a3KKIDVRsreebrU4CxGeLSvzhg/viewform?c=0&w=1)\*\*\*\*
+**Step 1:** Partner completes the [**ISV Registry Export Compliance Questionnaire**](https://docs.google.com/forms/d/e/1FAIpQLSczOO7juMCE2KN3aG7C9LK8a3KKIDVRsreebrU4CxGeLSvzhg/viewform?c=0&w=1)\*\*\*\*
 
 **Step 2:** Partner engages their legal team to review and respond to questionnaire
 

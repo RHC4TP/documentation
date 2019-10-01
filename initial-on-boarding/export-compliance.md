@@ -31,3 +31,9 @@ In the event that your company has not previously gone through the process of ob
 * [Chambers & Global - US Export Control Lawyers](http://www.chambersandpartners.com/12788/525/editorial/5/1)
 * [Red Hat Export Control Product Matrix](https://www.redhat.com/en/about/export-control-product-matrix) \(for example purposes\)
 
+{% hint style="info" %}
+If you are using a version of [UBI \(Universal Base Image\)](../certify-your-application/containers-with-red-hat-universal-base-image-ubi.md) to build your application container image, you can host your application image in a private repository. This allows you to skip the Export Compliance for your **application image only**. You will still need to complete the export compliance for your operator image. 
+{% endhint %}
+
+
+

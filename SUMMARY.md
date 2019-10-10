@@ -42,6 +42,7 @@
 
 ## Tools and Resources
 
+* [Upgrading Your Operator](tools-and-resources/upgrading-your-operator.md)
 * [Maintaining Image Grades](tools-and-resources/maintaining-image-grades.md)
 * [FAQs](tools-and-resources/faqs.md)
 * [Getting Help](tools-and-resources/getting-help.md)

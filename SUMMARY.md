@@ -28,8 +28,7 @@
 ## Building your Operator
 
 * [Operators Introduction](building-your-operator/operators-introduction.md)
-* [Dockerfile Requirements](building-your-operator/dockerfile-requirements.md)
-* [Validate Your Operator](building-your-operator/validate-your-csv-file.md)
+* [Building an Operator - In Depth](building-your-operator/building-an-operator-in-depth.md)
 
 ## Certify your Operator
 

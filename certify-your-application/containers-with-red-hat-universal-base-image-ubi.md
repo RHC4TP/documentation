@@ -10,7 +10,7 @@ UBI FAQ's -including licensing information can be found [here](https://developer
 
 #### **Distribution of certified container images**
 
-Red Hat Container Certification program offers  following two options for the distribution of certified, UBI content based, container images:
+Red Hat Container Certification program offers the following two options for the distribution of certified, UBI content based, container images:
 
 * **Red Hat Container Registry:**  Managed by Red Hat at no cost to partners.  This distribution option is available for container images whether you use UBI content or the broader RHEL content. This option requires compliance with U.S. export control laws. 
 
@@ -56,7 +56,7 @@ If you need more information, refer to the full Universal Base Image Guide here*
 
 **Dockerfile Requirements:**
 
-You can use this[ link](https://github.com/RHC4TP/starter/tree/master/Container%20Zone) as a reference to the Dockerfile needs to be configured to have your UBI based container image build and pass container certification successfully.
+You can use this[ link](https://github.com/RHC4TP/starter/tree/master/Container%20Zone) as a reference to how the Dockerfile needs to be configured to have your UBI based container image build and pass container certification successfully.
 
 To begin the process of certifying a container image, please follow the workflow described below.
 

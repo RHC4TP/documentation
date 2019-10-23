@@ -1,5 +1,9 @@
 # Operator Metadata
 
+{% hint style="success" %}
+If you need assistance creating your metadata you can use [https://operatorhub.io/bundle](https://operatorhub.io/bundle) to manually enter the information. The metadata can also be constructed using the Operator-SDK.
+{% endhint %}
+
 {% hint style="danger" %}
 Make sure your Operator Image has been PUBLISHED before you Upload your Metadata.
 {% endhint %}

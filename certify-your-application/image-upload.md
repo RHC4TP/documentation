@@ -8,11 +8,11 @@ description: There are two ways to Upload your Image. Below you will find both e
 
 ‌
 
-You can use this [link](https://github.com/RHC4TP/starter) as a reference to how the Dockerfile needs to be configured to have your image build and pass the scan successfully. Depending on your zone, navigate to the appropriate directory.‌
+The following [GitHub repo](https://github.com/RHC4TP/starter/tree/master/Container%20Zone) contains a few different Dockerfile examples that pass the container image scan, as they all align with the following requirements:
 
-1. Base image must be based on a Red Hat product, e.g. Red Hat Enterprise Linux or Red Hat Universal Base Image. Any images using Ubuntu, Debian, CentOS, etc. as a base will not be certified.
-2. You must configure the required labels \(name, maintainer, vendor, version, release, summary\)
-3. Software [license\(s\)](https://choosealicense.com/) must be included within the image.
+1. The Base image must be \(or must be based on\) a supported Red Hat image, such as Red Hat Enterprise Linux or Red Hat Universal Base Image. Any third party or community supported images such as Ubuntu, Debian, Alpine, CentOS etc are not supported by Red Hat and cannot be certified.
+2. The following labels must exist: **name**, **maintainer**, **vendor**, **version**, **release** & **summary**
+3. Any [software license\(s\)](https://choosealicense.com/) must be placed in a `/licenses/` directory at the root of the image.
 
 **Although labels and licenses are not required to successfully build a running container, they are required for the Red Hat build service and scanner.**‌
 

@@ -6,6 +6,10 @@ For general questions regarding Red Hat Connect partner program, registering wit
 
 ## **Technical Questions**
 
+{% hint style="warning" %}
+Partner issues are not considered to be _**URGENT**_ as they do not affect production level environments. Support Cases opened with an Urgent Priority will be moved to either Medium or High.
+{% endhint %}
+
 For any web portal issues or help with your certified image, please open a support case on the Red Hat Customer Portal and follow the steps below.
 
 1. Log in to the  [Red Hat Customer Portal](https://access.redhat.com/)  

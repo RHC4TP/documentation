@@ -7,7 +7,10 @@ For general questions regarding Red Hat Connect partner program, registering wit
 ## **Technical Questions**
 
 {% hint style="warning" %}
-Partner issues are not considered to be _**URGENT**_ as they do not affect production level environments. Support Cases opened with an Urgent Priority will be moved to either Medium or High.
+Severity 1 \(Urgent\) Priority Level is reserved for Red Hat Customers; therefore Partner issues are not considered to be _**SEVERITY 1**_. Support Cases opened with an Severity 1 priority will be moved to either Severity 2 or Severity 3.
+
+* **Severity 2 \(High\):** Issues impacted by tooling and/or UI ex: cannot publish my image or operator 
+* **Severity 3 \(Normal\):**  General isolated Issues, non-critical ex: having a failed image scan result.
 {% endhint %}
 
 For any web portal issues or help with your certified image, please open a support case on the Red Hat Customer Portal and follow the steps below.

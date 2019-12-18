@@ -10,3 +10,9 @@ It should be noted that the ability to maintain the certification requires a com
 If you are interested in certifying your application and an operator for that application please note there are two distinct workflows you must complete. The certified application image workflow AND the certified operator image workflow. 
 {% endhint %}
 
+{% hint style="info" %}
+Completing Red Hat OpenShift and Container Zone application and operator certification is the prerequisite first step for becoming Certified for IBM Cloud Paks. To find out more information about the process follow this link. [IBM Cloud Pak Certification](https://ibm-10.gitbook.io/certified-for-cloud-pak-onboarding/)
+{% endhint %}
+
+
+

@@ -45,5 +45,6 @@
 * [Maintaining Image Grades](tools-and-resources/maintaining-image-grades.md)
 * [FAQs](tools-and-resources/faqs.md)
 * [Getting Help](tools-and-resources/getting-help.md)
+* [IBM Cloud Pak Certification](tools-and-resources/ibm-cloud-pak-certification.md)
 * [Online Resources](tools-and-resources/online-resources.md)
 

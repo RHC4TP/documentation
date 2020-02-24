@@ -14,5 +14,9 @@ If you are interested in certifying your application and an operator for that ap
 Completing Red Hat OpenShift and Container Zone application and operator certification is the prerequisite first step for becoming Certified for IBM Cloud Paks. To find out more information about the process follow this link. [IBM Cloud Pak Certification](tools-and-resources/ibm-cloud-pak-certification.md)
 {% endhint %}
 
+{% hint style="success" %}
+Please be aware that there are circumstances where customers require that an Operator work in an airgap or disconnected environment. If this requirement is applicable to your operator, please follow the instructions here: [Offline-Enabled Operators](https://redhat-connect.gitbook.io/certified-operator-guide/appendix/offline-enabled-operators)
+{% endhint %}
+
 
 

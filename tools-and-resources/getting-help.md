@@ -1,6 +1,8 @@
 # Getting Help
 
-## **Instruction to Open a Support Ticket**
+To better assist you and answer your questions; please open a Support Ticket. An engineer will be in contact with you shortly regarding your request. 
+
+## **Instructions to Open a Support Ticket**
 
 For any web portal issues or help with your certified image, please open a support case on the Red Hat Customer Portal and follow the steps below.
 

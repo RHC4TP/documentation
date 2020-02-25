@@ -36,7 +36,7 @@
 * [The Certification Checklist](certify-your-operator/the-certification-checklist.md)
 * [Image Upload](certify-your-operator/image-upload.md)
 * [Image Scan and Verification Results](certify-your-operator/image-scan-and-verification-results.md)
-* [Operator Metadata](certify-your-operator/operator-metadata.md)
+* [Operator Config](certify-your-operator/operator-metadata.md)
 * [Metadata Scan and Results](certify-your-operator/metadata-scan-and-results.md)
 
 ## Tools and Resources

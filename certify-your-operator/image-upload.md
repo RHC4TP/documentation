@@ -1,9 +1,19 @@
 # Image Upload
 
+## Dockerfile Requirements <a id="dockerfile-requirements"></a>
+
+The following [GitHub repo](https://github.com/RHC4TP/starter/tree/master/Container%20Zone) contains a few different Dockerfile examples that pass the container image scan, as they all align with the following requirements:
+
+1. The Base image must be \(or must be based on\) a supported Red Hat image, such as Red Hat Enterprise Linux or Red Hat Universal Base Image. Any third party or community supported images such as Ubuntu, Debian, Alpine, CentOS etc are not supported by Red Hat and cannot be certified. \(If you are using the Operator-SDK to build your operator, the base image is supported by Red Hat\). 
+2. The following labels must exist: **name**, **maintainer**, **vendor**, **version**, **release,** **summary & description.** 
+3. Any [software license\(s\)](https://choosealicense.com/) must be placed in a `/licenses/` directory at the root of the operator project. 
+
+**Although labels and licenses are not required to successfully build a running container, they are required for the Red Hat build service and scanner.**‌ 
+
 ## The Build Service <a id="the-build-service"></a>
 
 {% hint style="warning" %}
-The Build Service currently only supports regular container images and does not build operators.‌
+The Build Service currently only supports regular container images and does not build operators.‌ You can use this for your operator image only, not the metadata files. 
 {% endhint %}
 
 The Automated Image Build Service automates the rebuilding of your image whenever an updated Red Hat package is available. It also scans your image \(after a successful build\) for any security vulnerabilities that may be present prior to publishing your image to the Container Catalog. The build service clones your Github/Gitlab repository onto a build server, and uses the Dockerfile to build your image. It is a requirement from Red Hat to properly maintain your image by keeping up to date with the latest security updates. By not using the automated build service, you are opting into manually maintaining and rebuilding your image every time an update is released.‌
@@ -61,4 +71,8 @@ This Registry Key is unique per project, please make sure you are using the corr
 {% endhint %}
 
 ![Follow the steps under Upload Your Image to manually upload your image](../.gitbook/assets/manualimageupload-operator.png)
+
+{% hint style="danger" %}
+If you do not have a registry key populated or are having issues pushing your image please open a Support Ticket. Instructions on how to open a Support Ticket can be found in the [Getting Help](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/tools-and-resources/getting-help) Section.
+{% endhint %}
 

@@ -1,10 +1,6 @@
 # Getting Help
 
-## **General Questions**
-
-For general questions regarding Red Hat Connect partner program, registering with the partner portal, or certifying your application, email [connect@redhat.com](mailto:connect@redhat.com)
-
-## **Technical Questions**
+## **Instruction to Open a Support Ticket**
 
 For any web portal issues or help with your certified image, please open a support case on the Red Hat Customer Portal and follow the steps below.
 

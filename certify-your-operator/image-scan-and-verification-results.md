@@ -12,7 +12,7 @@ It may be necessary to refresh the browser page to see the current status.
 
 Once the image has completed the scan in Red Hat Connect repository, the image will show the results of the scan. Scans normally take about 10-15 minutes to complete.
 
-![](https://lh4.googleusercontent.com/0ff1SFj6Zi13yXPvQdSl12lqEu1aSGQeNNMeawneaCiEXp1NQtQBh9SPo2oepfmb1oZ2ei_f2YMCGcsNFQ3W7NLtH_FkXZpD6a0s8zM8x3OovctfHnmffnwMWmXqyZmf02tZVHRR)
+![](../.gitbook/assets/pasted-image-0.png)
 
 The “View” button will expand on the scan results. The “Publish” button will publish the image to the Red Hat Container Catalog. It will change to “Unpublish” once and image has been published. The “Remove” button allows you to remove an image that you do not want to use or need anymore.
 
@@ -24,9 +24,9 @@ If the image returns a Passed scan status but the Publish button is still blocke
 
 If the image returns a “Failed” scan status, the results will automatically be displayed. Click on the name of the failed item \(in this example, “has\_licenses”\) for reference to the policy guide.
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 {% hint style="info" %}
-If you receive an “Access Denied” link when accessing the Policy Guide, please reach out to connect@redhat.com
+If you receive an **Access Denied** response when accessing the Policy Guide, please open a Support Ticket. Instructions on how to open a Support Ticket can be found in the [Getting Help](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/tools-and-resources/getting-help) Section.
 {% endhint %}
 

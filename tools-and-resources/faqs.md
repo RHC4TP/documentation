@@ -18,7 +18,7 @@ No, this certification process is specifically for containers. Therefore, your i
 
 ## What path should my licenses be on?
 
-Should be on / \(the root or home directory of where the application resides\). You can find an example provided by RH Engineer:Dockerfile Example
+Should be on / \(the root or home directory of where the application resides\). You can find an example provided here: [Container Zone Template](https://github.com/RHC4TP/starter/tree/master/Container%20Zone/Templates). 
 
 ## How do I change the namespace and repository name of my project?
 

@@ -4,5 +4,7 @@ Red Hat Technology Partner logos are available at the [Red Hat Partner Connect w
 
 If you have a product certified on Red Hat Technology, please contact us at [connect@redhat.com](mailto:connect@redhat.com) so that we can send you the Certified Product logo.
 
-Please contact [connect@redhat.com](mailto:connect@redhat.com) for any questions or concerns. _\*\*_
+{% hint style="info" %}
+Please contact [connect@redhat.com](mailto:connect@redhat.com) for any questions or concerns regarding logos. 
+{% endhint %}
 

@@ -4,7 +4,7 @@ Certified containers are applications that meet Red Hat’s best practices for p
 
 For Container Certification, you will need to complete the Certified section of the checklist and publish the image. To find the checklist for your certification project, go to your project page and select Certification Checklist located on the left menu under Actions.
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 An example of Container Checklist in progress:
 

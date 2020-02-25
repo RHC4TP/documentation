@@ -6,12 +6,10 @@ description: There are two ways to Upload your Image. Below you will find both e
 
 ## Dockerfile Requirements <a id="dockerfile-requirements"></a>
 
-‌
-
 The following [GitHub repo](https://github.com/RHC4TP/starter/tree/master/Container%20Zone) contains a few different Dockerfile examples that pass the container image scan, as they all align with the following requirements:
 
 1. The Base image must be \(or must be based on\) a supported Red Hat image, such as Red Hat Enterprise Linux or Red Hat Universal Base Image. Any third party or community supported images such as Ubuntu, Debian, Alpine, CentOS etc are not supported by Red Hat and cannot be certified.
-2. The following labels must exist: **name**, **maintainer**, **vendor**, **version**, **release** & **summary**
+2. The following labels must exist: **name**, **maintainer**, **vendor**, **version**, **release,** **summary & description.**
 3. Any [software license\(s\)](https://choosealicense.com/) must be placed in a `/licenses/` directory at the root of the image.
 
 **Although labels and licenses are not required to successfully build a running container, they are required for the Red Hat build service and scanner.**‌
@@ -77,4 +75,8 @@ This Registry Key is unique per project, please make sure you are using the corr
 {% endhint %}
 
 ![Follow the step below Upload Your Image to manually upload your image](../.gitbook/assets/manualimageupload-container.png)
+
+{% hint style="danger" %}
+If you do not have a registry key populated or are having issues pushing your image please open a Support Ticket. Instructions on how to open a Support Ticket can be found in the [Getting Help](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/tools-and-resources/getting-help) Section.
+{% endhint %}
 

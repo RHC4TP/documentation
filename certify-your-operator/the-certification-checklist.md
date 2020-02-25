@@ -4,7 +4,7 @@ Certified containers are applications that meet Red Hat’s best practices for p
 
 For Container Certification, you will need to complete the Certified section of the checklist and publish the image. To find the checklist for your certification project, go to your project page and select Certification Checklist located on the left menu under Actions.
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/op2.png)
 
 An example of Container Checklist in progress:
 
@@ -16,7 +16,7 @@ Before your image gets published you must complete the Certification Checklist. 
 
 Each item on the Checklist has more information, you can select the drop down arrow located to the left of each item to Learn More.
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 The checklist is separated into the following sections:
 
@@ -28,6 +28,8 @@ The checklist is separated into the following sections:
   * Site Agreement to the Container Terms.
 * Update project profile
   * This section relates more to the image/container settings such as Auto Publish feature, registry namespace, release category, supported platforms.
+  * \*NOTE: When updating the _**Repository Path**_ make sure you include registry url, namespace and image only. Do not include the tag name or version of the image.  
+    * Example: quay.io/test\_partner/test-image
 * Package and test your application as a container
   * Follow the instructions on this page to configure the build service. The build service will be dependent on the complete of the previous steps.
 * Upload documentation and marketing materials

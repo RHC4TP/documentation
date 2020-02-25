@@ -12,6 +12,7 @@ Copy your existing metadata files, and edit them to reference the new version:
 * Update any reference to your image with new tags
 * Edit the package.yaml to refer to the new CSV version
 * Add a spec.replaces field in the CSV naming the version this one replaces 
+  * The spec.replaces field must match the exact name of the CSV, not just the version number
 
 #### clusterserviceversion.yaml
 

@@ -20,7 +20,7 @@
 ## Certify your Application
 
 * [Creating a Container Application Project](certify-your-application/creating-a-container-application-project.md)
-* [Containers and the Red Hat Universal Base Image \(UBI\)](certify-your-application/containers-with-red-hat-universal-base-image-ubi.md)
+* [Containers and the Red Hat Universal Base Images \(UBI\)](certify-your-application/containers-with-red-hat-universal-base-image-ubi.md)
 * [The Certification Checklist](certify-your-application/the-certification-checklist.md)
 * [Image Upload](certify-your-application/image-upload.md)
 * [Image Scan & Verification](certify-your-application/image-scan-and-verification.md)

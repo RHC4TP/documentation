@@ -38,7 +38,7 @@ Select **Container Application**
 This information cannot be changed after project is created
 {% endhint %}
 
-![](../.gitbook/assets/project4.png)
+![](../.gitbook/assets/os1.png)
 
 ## 5. Distribution Method
 
@@ -46,7 +46,7 @@ This information cannot be changed after project is created
 This information cannot be changed after project is created
 {% endhint %}
 
-![](../.gitbook/assets/create_project.png)
+![](../.gitbook/assets/dm.png)
 
 Once you have finalized all your selection click on **Create Project.**
 

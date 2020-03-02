@@ -26,7 +26,7 @@ As required by expanded scope of Container Certification we have updated Contain
 
 #### **Distribution of certified container images**
 
-Red Hat Container Certification program offers the following two options for the distribution of certified, UBI content based, container images:
+Red Hat Container Certification program offers the following two options for the distribution of certified container images:
 
 * **Red Hat Container Registry:**  Managed by Red Hat at no cost to partners.  This distribution option is available for container images whether you use UBI or  RHEL7 base image. This option requires compliance with U.S. export control laws. See details in our [Export compliance guide](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/initial-on-boarding/export-compliance)
 * **Non-Red Hat Container Registry:** In this option your can distribute through your organization’s own registry or use any public registry such as Quay.io registry, Docker.io registry etc. This option is only available for container images built with one of the [Universal Base images](https://access.redhat.com/articles/4238681) \(ubi, ubi-init, ubi-minimal\). 

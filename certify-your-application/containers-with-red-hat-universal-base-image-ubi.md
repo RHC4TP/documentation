@@ -92,6 +92,6 @@ To begin the process of certifying a container image, please follow the workflow
 Follow existing Container Certification workflow starting with “[Add a Product](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/add-a-product)” section and then proceeding to “CERTIFY YOUR APPLICATION” section.
 
 {% hint style="info" %}
-If you wish to certify your product container image with RHEL 7 UBI as well as RHEL 8 UBI you would have created two projects, one for each base image version.
+If you wish to certify your product container image with UBI7 as well as UBI8 you would have created two projects, one for each base image version.
 {% endhint %}
 

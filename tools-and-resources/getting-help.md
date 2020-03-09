@@ -13,11 +13,11 @@ For any web portal issues or help with your certified image, please open a suppo
 1. Log in to the  [Red Hat Customer Portal](https://access.redhat.com/)  
 2. Click on Support Cases located on white bar located at the top of the page.  
 
-![](https://docs.google.com/a/redhat.com/drawings/d/sK4IBhc4U4XeIgUGCBdklug/image?w=624&h=146&rev=7&ac=1&parent=1H1Y7bRIps-9a-sseFqyIkp9NofPbn9pz7Wzqu5LgvS0)
+![](../.gitbook/assets/3.png)
 
 1. Click Open a New Support Case
 
-![](https://docs.google.com/a/redhat.com/drawings/d/sMS1YqzRnsUE-dmkHluBnMg/image?w=624&h=170&rev=9&ac=1&parent=1H1Y7bRIps-9a-sseFqyIkp9NofPbn9pz7Wzqu5LgvS0)
+![](../.gitbook/assets/2.png)
 
 Complete the Support Case Form with special attention to the following fields:
 

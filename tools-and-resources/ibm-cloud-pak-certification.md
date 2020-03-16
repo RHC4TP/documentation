@@ -19,6 +19,6 @@ Red Hat Operator certification is a prerequisite for becoming Certified for IBM 
 * Create sales enablement collateral and go to market
 
 {% hint style="success" %}
-For more information about IBM Cloud Pak Certification visit this link: [IBM Cloud Paks](https://ibm-10.gitbook.io/certified-for-cloud-pak-onboarding/)
+For more information about IBM Cloud Pak Certification visit this link: [IBM Cloud Paks](https://www.ibm.com/partnerworld/cloud/independent-software-vendors)
 {% endhint %}
 

@@ -1,6 +1,6 @@
 # Containers and the Red Hat Universal Base Images \(UBI\)
 
-Red Hat Universal Base Images \(UBI\) are OCI-compliant container base operating system images with complementary runtime languages and packages that are freely redistributable. Like previous base images, they are built from portions of Red Hat Enterprise Linux \(RHEL\). UBI images can be obtained from the [Red Hat container catalog](https://access.redhat.com/containers/) and be built and deployed anywhere.
+Red Hat Universal Base Images \(UBI\) are OCI-compliant container base operating system images with complementary runtime languages and packages that are freely redistributable. Like previous base images, they are built from portions of Red Hat Enterprise Linux \(RHEL\). UBI images can be obtained from the [Red Hat container catalog](https://access.redhat.com/containers/#/product/5c180b28bed8bd75a2c29a63) and be built and deployed anywhere.
 
 Red Hat Universal Base Images \(UBI\)  provide the same quality trusted foundation for building container images as their non-UBI predecessors \(`rhel6`, `rhel7`, `rhel-init`, and `rhel-minimal` base images\), but offer more freedom in how they are used and distributed.
 

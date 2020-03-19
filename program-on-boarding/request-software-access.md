@@ -1,12 +1,21 @@
 # Request Software Access
 
-From the [Red Hat Partner Connect web portal](https://connect.redhat.com/), scroll down to the As a program member you receive section and click LEARN MORE under Software access.
+From the [Red Hat Partner Connect web portal](https://connect.redhat.com/), login to your account. 
 
-![](https://lh3.googleusercontent.com/vh1bOJ0JceTgkbYSltvNlK6LD39uG_jmbEwqUsNT81MlIq1Nj10jdFuu284PpBjr9TbY4mqmviW5MbnGuZTfkmQjtfVh0FyluaIZi32PD5iaxdvWnb19U6M2KwM-MhtaSI-k0YEu)
+There are several ways to Request Software Access. 
+
+1. You can simply go to: [Benefits - Software Access](https://connect.redhat.com/benefits/software-access).   OR
+2. Another option is Clicking on Zones in the upper toolbar and selecting **NFR software downloads**
+
+![](../.gitbook/assets/nfr.png)
 
 On the Red Hat Software Access Page, scroll down to **PLATFORMS** and click **REQUEST SUBSCRIPTION** under the software you need
 
-![](https://lh6.googleusercontent.com/oPHm-vsK584fiMe2EynDQ0Qss03I2cMasd221wUgfFkt6lKGk79Kx88kSs7YdklNrmYpEFuTZ4trsqx9jgnMDgMYVIDXvUCi4UOYOCo2I4Axxk-GyFZ1XWv392Li1kS6_8gt_Tmy)
+{% hint style="warning" %}
+In order to open a Support Case through Red Hat, you will need to select OpenShift Access
+{% endhint %}
+
+![](../.gitbook/assets/access.png)
 
 You will receive an email once software access has been granted.
 

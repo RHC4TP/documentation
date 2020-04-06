@@ -48,7 +48,15 @@ Click **Start New Build** button at the top of the page.‌
 
 ![](../.gitbook/assets/buildservicebluebutton-operator.png)
 
-Enter a tag number \(the version number of the plugin\) and click **SUBMIT**.‌
+Enter a tag number in the field provided
+
+### Image Tagging <a id="configuration"></a>
+
+Tag version numbers follow the convention of using a dash "-" and then a number in order to accommodate Red Hat package updates that are independent of the partner application.
+
+For example, if the initial image published is 1.0-1, the partner version is the 1.0 and the Red Hat build is -1. 
+
+If for some reason there is a security vulnerability or other Red Hat package update for that image, the Build Service will rebuild the image with a 1.0-2 tag to indicate a second Red Hat build of the same partner software version. 
 
 ![](https://lh6.googleusercontent.com/Y3mgzPLQ_EhPcEKMchL7pwpPWPKJNjkxUZppfAoF1h3FBEo43k6kcNi-JxnUyt1ym1Fk6gY04ysKQsqkYHfvcvCBgstksRswiMxVuqRrKNGdeGf9rtb6jRyiOx--XY11fHqLMo9e)
 

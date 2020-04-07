@@ -24,3 +24,7 @@ Should be on / \(the root or home directory of where the application resides\). 
 
 First, unpublish all containers. Then change the namespace/repo in the project settings. Finally, re-publish your containers.
 
+## What should my Repository Path be for my Project Settings?
+
+This depends on what Distribution Method you have chosen. See the list below to determine what this should be set to: 
+

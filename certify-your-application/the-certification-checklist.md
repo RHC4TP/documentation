@@ -8,7 +8,7 @@ For Container Certification, you will need to complete the Certified section of 
 
 An example of Container Checklist in progress:
 
-![](../.gitbook/assets/chekclist1.png)
+![](../.gitbook/assets/cert.png)
 
 The certified container will be published in the [Red Hat Container Catalog](https://access.redhat.com/containers/) along with containers published by Red Hat and those published by other software companies. The Red Hat Container Catalog is the public-facing website that showcases the containerized applications suitable for enterprise consumption. Red Hat Container Catalog pages will allow for publishing information about the partner company, and company’s products, as well as technical information about the containerized application. There will also be a way to link in assets from the partner company \(by URL\) that provide additional information about the product, for example a datasheet, a solution brief, a pre-recorded webinar, a case study, etc. The data populating the Red Hat Container Catalog is sourced from the Connect site. Therefore, it is important to review the company and product entries on Connect prior to publishing the container to Red Hat Container Catalog.
 

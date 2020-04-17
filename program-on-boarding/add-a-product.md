@@ -1,22 +1,28 @@
 # Add a Product
 
-From the [Red Hat Partner Connect web portal](https://connect.redhat.com/), click on **My Account** at the top right of the page and select **Company Dashboard.** 
+From the [Red Hat Partner Connect web portal](https://connect.redhat.com/), click on **Product Certification** at the top menu bar of the page and select **MANAGE PRODUCTS.** 
 
-![](../.gitbook/assets/companydashboard%20%281%29.png)
+![](../.gitbook/assets/prod1.png)
 
-Scroll down to Products section and Click **ADD A PRODUCT**.
+Click **CREATE LISTING**.
 
-![](https://lh6.googleusercontent.com/DcD7hOJONyoWQUxGW8o0OEhvoerg6LqqIhzNtBh6Pvpo5lRBn7jP3tBK0_ZggcqracBvFk62DTCy877IqZ7cuRal5-JEiWO9cLPpHew0r74ZXU-yPW3_tTiASbLihN9qIt5hroXp)
+![](../.gitbook/assets/prod2.png)
 
-Fill in all required information, including adding your logo and click **SUBMIT**.
+Fill in the Product name and Version and Listing Type and click **CREATE LISTING.**
 
-![](https://lh3.googleusercontent.com/m_wzaA30JuMOBlOY3ZO-PXXg6xiosqL2AC2oS43-F1gk4BGpnwPTvKzqAdrKJY8GRNXRZO6_1aQHo7BL2GYEbnCLrNddS6RubRRFDwZuLCYHMs3dNDVPY1-nGboxk0eVwwu6zyiL)
+![](../.gitbook/assets/prod3.png)
+
+Once Listing is created, Fill in all the required fields and click **CREATE LISTING.**
+
+![](../.gitbook/assets/prod4.png)
 
 {% hint style="danger" %}
-Product Versions does not refer to the product release version. Use this section to add the different container images you will be certifying. For example, if your product uses more than one container, add the container names separately as shown below. If your product only uses one image, specify the Product Version as the image name. 
+You must go through each _Listing details_ in the left hand menu and fill out all required information. 
 {% endhint %}
 
-![](https://lh6.googleusercontent.com/XXIbwE8QAGIog-FejEVRnBjxt5uoJ8lKDlm3fz4_mAkumr8Esk8pYFuUSNt31l5VU5TtYpmW2D3AoY_hjrOL6csy2S4-j3E9k2B1qCl0URV1oRiW0f1VUnuQpoKs4pDTmWcJHo7g)
+Once all required information is filled out, you can click **PUBLISH** on the right upper corner to publish your Product Listing. 
+
+![](../.gitbook/assets/prod5.png)
 
 {% hint style="info" %}
 The product information you enter will be used to feed the certified product catalog after certification is complete and approved by Red Hat, therefore verify all information is correct.

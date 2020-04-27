@@ -15,7 +15,7 @@ Completing Red Hat OpenShift and Container Zone application and operator certifi
 {% endhint %}
 
 {% hint style="success" %}
-Please note that there are circumstances where customers require that an Operator work in an airgap or disconnected environment. If this requirement is applicable to your operator, please follow the instructions here: [Offline-Enabled Operators](https://redhat-connect.gitbook.io/certified-operator-guide/appendix/offline-enabled-operators)
+Please note if the certified operator is intended for Red Hat Marketplace please following the instructions here for technical requirements:  [Offline-Enabled Operators](https://redhat-connect.gitbook.io/certified-operator-guide/appendix/offline-enabled-operators)
 {% endhint %}
 
 

@@ -9,5 +9,7 @@
 * [Examples of scan ready Dockerfiles](https://github.com/RHC4TP/starter.git)
 * [Docker tagging](https://docs.docker.com/engine/reference/commandline/tag/)
 * [Certified Operator Build Guide](https://redhat-connect.gitbook.io/certified-operator-guide/)
-* [Instructions to create an Offline-Enabled Operator](https://redhat-connect.gitbook.io/certified-operator-guide/appendix/offline-enabled-operators)
+* [Technical Requirement for Red Hat Marketplace](https://redhat-connect.gitbook.io/certified-operator-guide/appendix/offline-enabled-operators)
+
+
 

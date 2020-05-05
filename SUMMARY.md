@@ -4,13 +4,9 @@
 
 ## Initial On-boarding
 
-* [Register & Request Technology Partnership](initial-on-boarding/register-and-request-technology-partnership.md)
-* [TSANet Membership](initial-on-boarding/tsanet-membership.md)
-* [Export Compliance](initial-on-boarding/export-compliance.md)
-* [Using Red Hat Certified Partner Logos](initial-on-boarding/using-red-hat-certified-partner-logos.md)
-
 ## Program On-Boarding
 
+* [Prerequisites](program-on-boarding/prerequisites.md)
 * [Request Container Zone Access](program-on-boarding/request-container-zone-access.md)
 * [Add a Product](program-on-boarding/add-a-product.md)
 * [Add Additional Users to Your Account](program-on-boarding/add-additional-users-to-your-account.md)

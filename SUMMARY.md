@@ -4,9 +4,10 @@
 
 ## Initial On-boarding
 
+* [Prerequisites](initial-on-boarding/prerequisites.md)
+
 ## Program On-Boarding
 
-* [Prerequisites](program-on-boarding/prerequisites.md)
 * [Request Container Zone Access](program-on-boarding/request-container-zone-access.md)
 * [Add a Product](program-on-boarding/add-a-product.md)
 * [Add Additional Users to Your Account](program-on-boarding/add-additional-users-to-your-account.md)

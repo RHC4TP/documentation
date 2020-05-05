@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Partner Guide for OpenShift Operator and Container Certification](README.md)
 
 ## Program On-Boarding
 

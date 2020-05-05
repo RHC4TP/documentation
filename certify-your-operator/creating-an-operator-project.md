@@ -1,4 +1,4 @@
-# Creating an Operator Project
+# Creating an operator project
 
 {% hint style="info" %}
 Certified operators are listed in and consumed by customers through the embedded OpenShift OperatorHub, providing them the ability to easily deploy and run your solution. Additionally, your product and operator image will be listed in the Red Hat Container Catalog using the listing information you provide.‌

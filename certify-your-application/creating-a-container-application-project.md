@@ -1,4 +1,4 @@
-# Creating a Container Application Project
+# Creating a container application project
 
 {% hint style="info" %}
 Certified container images are delivered to customers through the Red Hat Connect Image Registry to run on a supported Red Hat container platform. Your product and images will be listed in the Red Hat Container Catalog using the listing information you provide. To begin the process to Certify your Application you must first Create a Container Project.‌

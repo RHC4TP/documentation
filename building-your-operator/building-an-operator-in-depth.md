@@ -1,4 +1,4 @@
-# Building an Operator - In Depth
+# Building an operator - in depth
 
 ## Certified Operator Build Guide
 

@@ -2,7 +2,7 @@
 description: There are two ways to Upload your Image. Below you will find both examples.
 ---
 
-# Image Upload
+# Uploading your container images
 
 ## Dockerfile Requirements <a id="dockerfile-requirements"></a>
 

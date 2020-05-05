@@ -1,4 +1,4 @@
-# Image Upload
+# Uploading your operator image
 
 ## Dockerfile Requirements <a id="dockerfile-requirements"></a>
 

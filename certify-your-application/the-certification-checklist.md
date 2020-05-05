@@ -1,4 +1,4 @@
-# The Certification Checklist
+# The certification checklist
 
 Certified containers are applications that meet Red Hat’s best practices for packaging, distribution and maintenance. Certified containers imply a commitment from partners to maintain their images up to date and represent the highest level of trust and supportability for Red Hat customers container-capable platforms, including OpenShift.
 

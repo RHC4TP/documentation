@@ -1,4 +1,4 @@
-# Upgrading Your Operator
+# Upgrading your operator
 
 ## How to release a newer version of your operator
 

@@ -1,4 +1,4 @@
-# Online Resources
+# Online resources
 
 * [Learn Kubernetes by Example](http://kubernetesbyexample.com/)
 * [OpenShift Interactive Learning Portal](https://learn.openshift.com/)

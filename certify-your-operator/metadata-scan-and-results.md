@@ -1,4 +1,4 @@
-# Metadata Scan and Results
+# Metadata scanning & results
 
 The Metadata Scan takes about 1-2 hours. Once the scan is complete you will see the Results under Operator Metadata. If you have a Passed result you can click **Publish** to Publish your Operator.
 

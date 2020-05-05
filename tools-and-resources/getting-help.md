@@ -1,4 +1,4 @@
-# Getting Help
+# Getting help
 
 To better assist you and answer your questions; please open a Support Ticket. An engineer will be in contact with you shortly regarding your request. 
 

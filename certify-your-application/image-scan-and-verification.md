@@ -1,4 +1,4 @@
-# Image Scan & Verification
+# Image scanning & verification
 
 ## Image Scan
 

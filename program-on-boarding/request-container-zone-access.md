@@ -1,4 +1,4 @@
-# Request Container Zone Access
+# Request Container Zone access
 
 When you’re ready to certify your product on Red Hat Software, you will need to request Zone access and then create a Certification Project.
 

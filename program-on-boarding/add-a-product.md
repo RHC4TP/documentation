@@ -1,4 +1,4 @@
-# Add a Product
+# Add a product
 
 From the [Red Hat Partner Connect web portal](https://connect.redhat.com/), click on **Product Certification** at the top menu bar of the page and select **MANAGE PRODUCTS.** 
 

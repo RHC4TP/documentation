@@ -1,8 +1,8 @@
-# Prerequisites & getting started
+# Program Prerequisites
 
 ### Before you begin
 
-Before you begin OpenShift operator or container certification, a few prerequisites must be met:
+Before you begin OpenShift Container or Operator certification, a few prerequisites must be met:
 
 1. You must be a Red Hat partner in good standing. If you are not already a Red Hat technology partner, [follow these instructions](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/register) to begin.
 2. You must be a [TSANet](https://tsanet.org/) member or a member through Red Hat's limited membership program. If you are not yet a TSANet member, Red Hat will sponsor a 1:1 limited membership. [Read more about TSANet membership through Red Hat](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/general/tsanet).

@@ -4,7 +4,9 @@
 
 ## Program On-Boarding
 
-* [Prerequisites & getting started](program-on-boarding/prerequisites.md)
+* [Certification Workflow](program-on-boarding/certification-workflow.md)
+* [Program Prerequisites](program-on-boarding/prerequisites.md)
+* [Technical Prerequisites](program-on-boarding/technical-prerequisites.md)
 * [Request Container Zone access](program-on-boarding/request-container-zone-access.md)
 * [Add a product](program-on-boarding/add-a-product.md)
 

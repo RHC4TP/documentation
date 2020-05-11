@@ -8,20 +8,15 @@
 * [IBM Partner Programs](program-on-boarding/ibm-partner-programs.md)
 * [Program Prerequisites](program-on-boarding/prerequisites.md)
 * [Technical Prerequisites](program-on-boarding/technical-prerequisites.md)
+* [Containers and the Red Hat Universal Base Images \(UBI\)](program-on-boarding/containers-with-red-hat-universal-base-image-ubi.md)
 * [Request Container Zone access](program-on-boarding/request-container-zone-access.md)
 
 ## Application Certification <a id="certify-your-application"></a>
 
 * [Creating a container application project](certify-your-application/creating-a-container-application-project.md)
-* [Containers and the Red Hat Universal Base Images \(UBI\)](certify-your-application/containers-with-red-hat-universal-base-image-ubi.md)
 * [The certification checklist](certify-your-application/the-certification-checklist.md)
 * [Uploading your container images](certify-your-application/image-upload.md)
 * [Image scanning & verification](certify-your-application/image-scan-and-verification.md)
-
-## Building your Operator
-
-* [Introduction to operators](building-your-operator/operators-introduction.md)
-* [Building an operator - in depth](building-your-operator/building-an-operator-in-depth.md)
 
 ## Operator Certification <a id="certify-your-operator"></a>
 
@@ -38,5 +33,6 @@
 * [Maintaining image grades](tools-and-resources/maintaining-image-grades.md)
 * [FAQs](tools-and-resources/faqs.md)
 * [Getting help](tools-and-resources/getting-help.md)
-* [Online resources](tools-and-resources/online-resources.md)
+* [Online resources](tools-and-resources/online-resources/README.md)
+  * [Introduction to operators](tools-and-resources/online-resources/operators-introduction.md)
 

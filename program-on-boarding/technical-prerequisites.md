@@ -1,12 +1,14 @@
 # Technical Prerequisites
 
+### Getting Software
+
+You may need download Not-for-resale \(NFR\) access to Red Hat software such as Red Hat OpenShift Container Platform. To request software access as a partner, [follow these instructions](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/software-access/requesting-software). Once your access has been approved, you may [download software from the Customer Portal](https://access.redhat.com/downloads/).
+
 The following are requirements for building any Certified Images. This section includes both Container Application and Operator Images. Although Labels and Licenses are not required to successfully build a container, they are required for Red Hat Certification. 
 
 ### Licenses Requirements
 
 You need to include any relevant licenses within the `licenses/`directory. This is important for the end user to be aware of the terms and conditions applicable to the software. Including opens source licensing information, if open source components are included in the image. Here are some examples:  [https://choosealicense.com/](https://choosealicense.com/) 
-
-
 
 ### Dockerfile Requirements 
 
@@ -63,4 +65,14 @@ COPY licenses /licenses
 COPY helm-charts/ ${HOME}/helm-charts/
 COPY watches.yaml ${HOME}/watches.yaml
 ```
+
+### Operators 
+
+An Operator is a method of packaging, deploying and managing a Kubernetes application. A Kubernetes application is an application that is both deployed on Kubernetes and managed using the Kubernetes APIs and kubectl/oc tooling. You can think of Operators as the runtime that manages this type of application on Kubernetes.
+
+### Certified Operator Build Guide
+
+We have created another guide that you can find[ here.](https://redhat-connect.gitbook.io/certified-operator-guide/) This guide is designed to take you step by step through the process of creating your operator using the Operator-SDK. There are examples for using both Helm and Ansible as well as more information on deploying a test environment for you to work with while developing your operator
+
+
 

@@ -9,7 +9,7 @@ Red Hat® Marketplace, an open cloud marketplace that makes it easier to discove
 There are some technical requirements needed to be implemented for your operator to qualify for the Red Hat Marketplace. If the certified operator is intended for Red Hat Marketplace, please follow the instructions here: [Offline-Enabled Operators](https://redhat-connect.gitbook.io/certified-operator-guide/appendix/offline-enabled-operators). 
 
 {% hint style="info" %}
-For more information about Red Hat Marketplace visit this link: [Red Hat Marketplace](https://marketplace.redhat.com/en-us)
+For more information about Red Hat Marketplace and getting started visit this link: [Red Hat Marketplace](https://marketplace.redhat.com/en-us)
 {% endhint %}
 
 

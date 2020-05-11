@@ -6,7 +6,7 @@ An Operator is a method of packaging, deploying and managing a Kubernetes applic
 
 As a partner, there are three places where you can contribute an operator, each with a different publishing endpoint:
 
-![](../.gitbook/assets/operator-publishing-paths-1.png)
+![](../../.gitbook/assets/operator-publishing-paths-1.png)
 
 * **Certified Operators** - submitted through Red Hat Connect - listed in OpenShift OperatorHub
 * **Community Operators** - submitted through GitHub - listed in both OpenShift _and_ OKD OperatorHub

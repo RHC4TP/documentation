@@ -9,9 +9,8 @@
 * [Program Prerequisites](program-on-boarding/prerequisites.md)
 * [Technical Prerequisites](program-on-boarding/technical-prerequisites.md)
 * [Request Container Zone access](program-on-boarding/request-container-zone-access.md)
-* [Add a product](program-on-boarding/add-a-product.md)
 
-## Certify your Application
+## Application Certification <a id="certify-your-application"></a>
 
 * [Creating a container application project](certify-your-application/creating-a-container-application-project.md)
 * [Containers and the Red Hat Universal Base Images \(UBI\)](certify-your-application/containers-with-red-hat-universal-base-image-ubi.md)
@@ -24,7 +23,7 @@
 * [Introduction to operators](building-your-operator/operators-introduction.md)
 * [Building an operator - in depth](building-your-operator/building-an-operator-in-depth.md)
 
-## Certify your Operator
+## Operator Certification <a id="certify-your-operator"></a>
 
 * [Creating an operator project](certify-your-operator/creating-an-operator-project.md)
 * [The certification checklist](certify-your-operator/the-certification-checklist.md)

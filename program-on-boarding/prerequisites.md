@@ -5,10 +5,17 @@
 Before you begin OpenShift Container or Operator certification, a few prerequisites must be met:
 
 1. You must be a Red Hat partner in good standing. If you are not already a Red Hat technology partner, [follow these instructions](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/register) to begin.
-2. You must be a [TSANet](https://tsanet.org/) member or a member through Red Hat's limited membership program. If you are not yet a TSANet member, Red Hat will sponsor a 1:1 limited membership. [Read more about TSANet membership through Red Hat](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/general/tsanet).
-3. You must request and be approved for the Red Hat Partner Connect Operator & Container Zone.
+2. Your Company Profile must be created and up to date. More information can be found here: [Instructions for Company Profile](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/company-profile). 
+3. A Product Listing must be created and up to date. This listing will permit you to Certify your Application. More information can be found here: [Instructions for Product Listing](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/product-listing).  
+4. You must request and be approved for the: [Red Hat Partner Connect Operator & Container Zone](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/request-container-zone-access).
 
-Additionally, due to the nature of containerized software using Red Hat base images, you may be required to adhere to our [export compliance guidelines for partners](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/general/export-compliance).
+Additionally, due to the nature of containerized software using Red Hat base images, you may be required to adhere to our [export compliance guidelines for partners](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/general/export-compliance). More information 
+
+
+
+
+
+1. You must be a [TSANet](https://tsanet.org/) member or a member through Red Hat's limited membership program. If you are not yet a TSANet member, Red Hat will sponsor a 1:1 limited membership. [Read more about TSANet membership through Red Hat](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/general/tsanet).
 
 ### Getting Red Hat software
 

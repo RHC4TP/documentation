@@ -11,7 +11,7 @@ Before you begin OpenShift Container or Operator certification, a few prerequisi
    3. Adding users to your account can be done by following these Instructions: [Managing Users](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/managing-users).
 3. You must request and be approved for the: [Red Hat Partner Connect Operator & Container Zone](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/request-container-zone-access).
 4. _\(Required for Distributing in our registry and for Red Hat Marketplace\)_ Due to the nature of containerized software using Red Hat base images, you may be required to adhere to our: [Export Compliance guidelines for partners](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/general/export-compliance).
-5. _\(Optional\)_ If you are not yet a TSANet member, Red Hat will sponsor a 1:1 limited membership. [Read more about TSANet membership through Red Hat](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/general/tsanet).
+5. If you are not yet a TSANet member, Red Hat will sponsor a 1:1 limited membership. [Read more about TSANet membership through Red Hat](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/general/tsanet).
 
 
 

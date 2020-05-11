@@ -28,7 +28,7 @@ Complete the Create New Project Wizard.
 
 Select **OPERATOR**
 
-![](../.gitbook/assets/op1.png)
+![](../.gitbook/assets/op1%20%281%29.png)
 
 ## 3. Release Category
 
@@ -48,7 +48,7 @@ This information cannot be changed after project is created
 This information cannot be changed after project is created
 {% endhint %}
 
-![](../.gitbook/assets/create_project.png)
+![](../.gitbook/assets/op1.png)
 
 Once you have finalized all your selection click on **Create Project.**
 

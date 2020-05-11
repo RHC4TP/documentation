@@ -5,6 +5,7 @@
 ## Program On-Boarding
 
 * [Certification Workflow](program-on-boarding/certification-workflow.md)
+* [IBM Partner Programs](program-on-boarding/ibm-partner-programs.md)
 * [Program Prerequisites](program-on-boarding/prerequisites.md)
 * [Technical Prerequisites](program-on-boarding/technical-prerequisites.md)
 * [Request Container Zone access](program-on-boarding/request-container-zone-access.md)

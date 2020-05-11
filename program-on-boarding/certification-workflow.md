@@ -15,7 +15,7 @@ In order to have a Certified Operator, you must first complete the Container App
 
 ![](../.gitbook/assets/cert2.png)
 
-{% hint style="info" %}
-Please note if the certified operator is intended for Red Hat Marketplace please following the instructions here for technical requirements:  [Offline-Enabled Operators](https://redhat-connect.gitbook.io/certified-operator-guide/appendix/offline-enabled-operators)
+{% hint style="warning" %}
+Other IBM Partners program can be pursued after both certification workflows have been completed. More information can be found here: IBM Partner Programs. 
 {% endhint %}
 

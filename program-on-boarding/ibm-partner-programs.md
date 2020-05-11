@@ -14,7 +14,7 @@ For more information about Red Hat Marketplace visit this link: [Red Hat Marketp
 
 
 
-### IBM Cloudpaks
+### IBM Cloud Paks
 
 With Red Hat OpenShift at the core, IBM Cloud Paks accelerate new and existing clients' journey to the cloud, while delivering business value. IBM is a thought leader in application and integration modernization, with a worldwide presence that includes a global sales force with enterprise customer relationships in every country and local technical skills. 
 

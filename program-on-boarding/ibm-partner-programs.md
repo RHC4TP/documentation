@@ -2,13 +2,17 @@
 
 Apart from the Partner Connect Program there are other programs you can pursue after certification is complete. 
 
-### Red Hat Marketplace 
+### Red Hat Marketplace operated by IBM
 
-Red Hat® Marketplace, an open cloud marketplace that makes it easier to discover and access certified software for container-based environments in public clouds and on-prem. With automated deployment, software is immediately available to deploy on any Red Hat® OpenShift® cluster, providing a fast, integrated experience.
+Red Hat® Marketplace, an open cloud marketplace that makes it easier to discover and access certified software for container-based environments in public clouds and on-prem. With automated deployment, software is immediately available to deploy on any Red Hat® OpenShift® cluster, providing a fast, integrated experience. 
+
+There are some technical requirements needed to be implemented for your operator to qualify for the Red Hat Marketplace. If the certified operator is intended for Red Hat Marketplace, please follow the instructions here: [Offline-Enabled Operators](https://redhat-connect.gitbook.io/certified-operator-guide/appendix/offline-enabled-operators). 
 
 {% hint style="info" %}
-There are technical changes that need to be implemented to your operator for Red Hat Marketplace. If the certified operator is intended for Red Hat Marketplace please following the instructions here for technical requirements:  [Offline-Enabled Operators](https://redhat-connect.gitbook.io/certified-operator-guide/appendix/offline-enabled-operators)
+For more information about Red Hat Marketplace visit this link: [Red Hat Marketplace](https://marketplace.redhat.com/en-us)
 {% endhint %}
+
+
 
 ### IBM Cloudpaks
 

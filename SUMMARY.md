@@ -32,7 +32,6 @@
 * [Upgrading your operator](tools-and-resources/upgrading-your-operator.md)
 * [Maintaining image grades](tools-and-resources/maintaining-image-grades.md)
 * [FAQs](tools-and-resources/faqs.md)
-* [Getting help](tools-and-resources/getting-help.md)
 * [Online resources](tools-and-resources/online-resources/README.md)
   * [Introduction to operators](tools-and-resources/online-resources/operators-introduction.md)
 

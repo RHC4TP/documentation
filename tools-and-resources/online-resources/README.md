@@ -1,6 +1,6 @@
 # Online resources
 
-* [Learn Kubernetes by Example](http://kubernetesbyexample.com/)
+* [Learn Kubernetes by Example](http://kubernetesbyexample.com/)  
 * [OpenShift Interactive Learning Portal](https://learn.openshift.com/)
 * [Partner Openshift Onboarding Guide](https://www.openshift.com/partners/get-started/index.html)
 * [OpenShift Documentation](https://docs.openshift.com/container-platform/)

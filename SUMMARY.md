@@ -35,3 +35,7 @@
 * [Online resources](tools-and-resources/online-resources/README.md)
   * [Introduction to operators](tools-and-resources/online-resources/operators-introduction.md)
 
+## Connect API
+
+* [Project Creation](connect-api/project-creation.md)
+

@@ -1,6 +1,6 @@
 # Partner Guide for OpenShift Operator and Container Certification
 
-This document will  guide you through the process of obtaining a “Red Hat Certified” designation for an application that you have made available via a Linux container using Red Hat technology.
+This document will  guide you through the process of obtaining a “Red Hat Certified” designation for an application that you have made available via a Linux container using Red Hat technology. 
 
 The process involves preparing your containerized application so that it meets certain criteria as specified in the Red Hat Certification Policy Guide, submitting it to Red Hat for review and certification, and publishing it so that the containerized application is available for consumption.
 

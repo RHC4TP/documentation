@@ -36,5 +36,3 @@
   * [Project Creation](appendix/connect-portal-api/project-creation.md)
 * [Introduction to Operators](appendix/operators-introduction.md)
 
-## Connect API
-

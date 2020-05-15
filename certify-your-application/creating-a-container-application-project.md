@@ -43,16 +43,20 @@ This information cannot be changed after project is created
 ## 5. Distribution Method
 
 {% hint style="danger" %}
-This information cannot be changed after project is created
+This information cannot be changed after project is created. 
+
+_If this is for the Red Hat Marketplace, you **cannot** choose Non-Red Hat Container Registry. You have the other 2 options to chose from and must complete_ [_Export Compliance_](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/export-compliance)_._ 
 {% endhint %}
 
-![](../.gitbook/assets/dm.png)
+![](../.gitbook/assets/dist1.png)
 
 Once you have finalized all your selection click on **Create Project.**
 
 {% hint style="info" %}
-To access your project:   
-➡ Click the Project Name in the Zone \[Red Hat Openshift & Container\] &gt; Certify Page.   
-➡ You can also access your projects by going to Company Dashboard &gt; Scroll down to Zones and click View Projects. 
+Different ways to access your project:   
+➡ Click on the Zones Section in Header &gt; Red Hat Openshift & Container &gt; Certify Page.   
+➡ Click on the Product Certification section in Header &gt; Manage Project &gt; In Zones section click View Projects   
 {% endhint %}
+
+![](../.gitbook/assets/project.png)
 

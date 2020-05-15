@@ -14,28 +14,27 @@
 ## Application Certification <a id="certify-your-application"></a>
 
 * [Creating a container application project](certify-your-application/creating-a-container-application-project.md)
-* [The certification checklist](certify-your-application/the-certification-checklist.md)
+* [The Certification Checklist](certify-your-application/the-certification-checklist.md)
 * [Uploading your container images](certify-your-application/image-upload.md)
-* [Image scanning & verification](certify-your-application/image-scan-and-verification.md)
+* [Image Scanning & Verification](certify-your-application/image-scan-and-verification.md)
 
 ## Operator Certification <a id="certify-your-operator"></a>
 
 * [Creating an operator project](certify-your-operator/creating-an-operator-project.md)
-* [The certification checklist](certify-your-operator/the-certification-checklist.md)
+* [The Certification Checklist](certify-your-operator/the-certification-checklist.md)
 * [Uploading your operator image](certify-your-operator/image-upload.md)
-* [Image scanning and verification](certify-your-operator/image-scan-and-verification-results.md)
-* [Operator configs](certify-your-operator/operator-metadata.md)
+* [Image Scanning and Verification](certify-your-operator/image-scan-and-verification-results.md)
+* [Operator Config](certify-your-operator/operator-metadata.md)
 * [Metadata scanning & results](certify-your-operator/metadata-scan-and-results.md)
+* [Upgrading your Operator](certify-your-operator/upgrading-your-operator.md)
 
-## Tools and Resources
+## APPENDIX
 
-* [Upgrading your operator](tools-and-resources/upgrading-your-operator.md)
-* [Maintaining image grades](tools-and-resources/maintaining-image-grades.md)
-* [FAQs](tools-and-resources/faqs.md)
-* [Online resources](tools-and-resources/online-resources/README.md)
-  * [Introduction to operators](tools-and-resources/online-resources/operators-introduction.md)
+* [Maintaining image grades](appendix/maintaining-image-grades.md)
+* [Next Steps](appendix/next-steps.md)
+* [Connect Portal API](appendix/connect-portal-api/README.md)
+  * [Project Creation](appendix/connect-portal-api/project-creation.md)
+* [Introduction to Operators](appendix/operators-introduction.md)
 
 ## Connect API
-
-* [Project Creation](connect-api/project-creation.md)
 

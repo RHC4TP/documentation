@@ -2,7 +2,7 @@
 
 ### Getting Software
 
-You may need download Not-for-resale \(NFR\) access to Red Hat software such as Red Hat OpenShift Container Platform. To request software access as a partner, [follow these instructions](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/software-access/requesting-software). Once your access has been approved, you may [download software from the Customer Portal](https://access.redhat.com/downloads/).
+You may need download Not-for-resale \(NFR\) access to Red Hat software such as Red Hat OpenShift Container Platform. To request software access as a partner, [follow these instructions](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/software-access). Once your access has been approved, you may [download software from the Customer Portal](https://access.redhat.com/downloads/).
 
 The following are requirements for building any Certified Images. This section includes both Container Application and Operator Images. Although Labels and Licenses are not required to successfully build a container, they are required for Red Hat Certification. 
 

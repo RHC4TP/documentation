@@ -1,7 +1,7 @@
 # Creating an operator project
 
 {% hint style="info" %}
-Certified operators are listed in and consumed by customers through the embedded OpenShift OperatorHub, providing them the ability to easily deploy and run your solution. Additionally, your product and operator image will be listed in the Red Hat Container Catalog using the listing information you provide.‌
+Certified operators are listed in and consumed by customers through the embedded OpenShift OperatorHub, providing them the ability to easily deploy and run your solution. Additionally, your product and operator image will be listed in the [Red Hat Container Catalog ](https://catalog.redhat.com)using the listing information you provide.‌ 
 {% endhint %}
 
 
@@ -46,6 +46,8 @@ This information cannot be changed after project is created
 
 {% hint style="danger" %}
 This information cannot be changed after project is created
+
+_If this is for the Red Hat Marketplace, you **cannot** choose Non-Red Hat Container Registry. You have the other 2 options to chose from and must complete_ [_Export Compliance_](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/export-compliance)_._ 
 {% endhint %}
 
 ![](../.gitbook/assets/op1.png)

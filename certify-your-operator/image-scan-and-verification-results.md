@@ -1,4 +1,4 @@
-# Image scanning and verification
+# Image Scanning and Verification
 
 ## Image Scan
 
@@ -27,6 +27,6 @@ If the image returns a “Failed” scan status, the results will automatically 
 ![](../.gitbook/assets/image%20%2810%29.png)
 
 {% hint style="info" %}
-If you receive an **Access Denied** response when accessing the Policy Guide, please open a Support Ticket. Instructions on how to open a Support Ticket can be found in the [Getting Help](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/tools-and-resources/getting-help) Section.
+If you receive an **Access Denied** response when accessing the Policy Guide, please open a Support Ticket. Instructions on how to open a Support Ticket can be found in the [Getting Help](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/getting-help/support-ticket) Section.
 {% endhint %}
 

@@ -1,4 +1,4 @@
-# Operator configs
+# Operator Config
 
 {% hint style="success" %}
 If you need assistance creating your metadata you can use [https://operatorhub.io/bundle](https://operatorhub.io/bundle) to manually enter the information. The metadata can also be constructed using the Operator-SDK CLI. More information can be found: [Operator Metadata](https://redhat-connect.gitbook.io/certified-operator-guide/ocp-deployment/operator-metadata)

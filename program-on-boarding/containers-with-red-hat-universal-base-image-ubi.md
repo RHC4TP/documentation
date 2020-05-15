@@ -28,7 +28,7 @@ As required by expanded scope of Container Certification we have updated Contain
 
 Red Hat Container Certification program offers the following two options for the distribution of certified container images:
 
-* **Red Hat Container Registry:**  Managed by Red Hat at no cost to partners.  This distribution option is available for container images whether you use UBI or  RHEL7 base image. This option requires compliance with U.S. export control laws. See details in our [Export compliance guide](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/initial-on-boarding/export-compliance)
+* **Red Hat Container Registry:**  Managed by Red Hat at no cost to partners.  This distribution option is available for container images whether you use UBI or  RHEL7 base image. This option requires compliance with U.S. export control laws. See details in our [Export compliance guide](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/export-compliance)
 * **Non-Red Hat Container Registry:** In this option your can distribute through your organization’s own registry or use any public registry such as Quay.io registry, Docker.io registry etc. This option is only available for container images built with one of the [Universal Base images](https://access.redhat.com/articles/4238681) \(ubi, ubi-init, ubi-minimal\). 
 
 #### **Recommended repository names for container images**
@@ -82,14 +82,14 @@ To begin the process of certifying a container image, please follow the workflow
 **Workflow for a Partner Product with existing Container Certification:**
 
 * If you are NOT making a change to any of the items listed below, please continue to use your existing project to upload images for certification. 
-* If you are planning to change any one or more of the items listed below, please un-publish your existing images and [Create a New Project](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-application/create-a-container-project) for certification. 
+* If you are planning to change any one or more of the items listed below, please un-publish your existing images and [Create a New Project](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/certify-your-application/creating-a-container-application-project) for certification. 
 
 1. The container base image  
 2. The distribution method  
 
 **Workflow for a Partner Product with no existing Container Certification:**
 
-Follow existing Container Certification workflow starting with “[Add a Product](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/add-a-product)” section and then proceeding to “CERTIFY YOUR APPLICATION” section.
+Follow existing Container Certification workflow starting with “[Add a Product](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/product-listing)” section and then proceeding to “CERTIFY YOUR APPLICATION” section.
 
 {% hint style="info" %}
 If you wish to certify your product container image with UBI7 as well as UBI8 you would have created two projects, one for each base image version.

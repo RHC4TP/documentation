@@ -1,7 +1,7 @@
 ---
 description: >-
   This guide lists the steps needed to create Connect Projects using the Connect
-  API.
+  API v2.
 ---
 
 # Project Creation

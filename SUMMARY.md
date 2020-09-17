@@ -20,12 +20,16 @@
 
 ## Operator Certification <a id="certify-your-operator"></a>
 
-* [Creating an operator project](certify-your-operator/creating-an-operator-project.md)
-* [The Certification Checklist](certify-your-operator/the-certification-checklist.md)
-* [Uploading your operator image](certify-your-operator/image-upload.md)
-* [Image Scanning and Verification](certify-your-operator/image-scan-and-verification-results.md)
-* [Operator Config](certify-your-operator/operator-metadata.md)
-* [Metadata scanning & results](certify-your-operator/metadata-scan-and-results.md)
+* [Certify your Operator Image](certify-your-operator/creating-an-operator-project/README.md)
+  * [Creating Container Project](certify-your-operator/creating-an-operator-project/creating-container-project.md)
+  * [The Certification Checklist](certify-your-operator/creating-an-operator-project/the-certification-checklist.md)
+  * [Uploading your Operator Image](certify-your-operator/creating-an-operator-project/image-upload.md)
+  * [Image Scanning and Verification](certify-your-operator/creating-an-operator-project/image-scan-and-verification-results.md)
+* [Certify your Operator Bundle Image](certify-your-operator/certify-your-operator-bundle-image/README.md)
+  * [Creating Operator Bundle Image Project](certify-your-operator/certify-your-operator-bundle-image/creating-operator-bundle-image-project.md)
+  * [The Certification Checklist](certify-your-operator/certify-your-operator-bundle-image/the-certification-checklist.md)
+  * [Uploading your Operator Bundle Image](certify-your-operator/certify-your-operator-bundle-image/uploading-your-operator-bundle-image.md)
+  * [Bundle Image Scan & Results](certify-your-operator/certify-your-operator-bundle-image/metadata-scan-and-results.md)
 * [Upgrading your Operator](certify-your-operator/upgrading-your-operator.md)
 
 ## APPENDIX

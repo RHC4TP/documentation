@@ -1,57 +1,39 @@
 # Upgrading your Operator
 
-## How to release a newer version of your operator
-
-Push the new operator image to the Connect portal, just like the original image.
-
-Copy your existing metadata files, and edit them to reference the new version:
-
-* Rename the CSV to have the new version number
-* Put the new version number in the metadata.name
-* Put the new version number in the spec.version
-* Update any reference to your image with new tags
-* Edit the package.yaml to refer to the new CSV version
-* Add a spec.replaces field in the CSV naming the version this one replaces 
-  * The spec.replaces field must match the exact name of the CSV, not just the version number
-
-#### clusterserviceversion.yaml
+To create a new update for your operator, you'll need to create a new version directory, and place your crds and csv inside. You can make any updates to these files as normal. 
 
 ```text
-metadata:
-  annotations:
-    containerImage: quay.io/example-repo/example-operator:v0.0.2 ## Updated with new tag
-  name: example-operator.v0.0.2  ## Updated to new version 
-spec:
-  replaces: example-operator.v0.0.1 ##This line is added
-  version: 0.0.2  ## Updated to new version
-  install:
-    spec:
-      deployments:      
-      ...
-              containers:
-                image: quay.io/example-repo/example-operator:v0.0.2 ## Updated with new tag
+$ mkdir bundle/3.0.0
+$ cp <latest csv> bundle/3.0.0
+$ cp <crd> bundle/3.0.0
 ```
 
-#### package.yaml
+Here's an example what the structure should look like when you're done:
+
+![](../.gitbook/assets/metatdat.png)
+
+{% hint style="warning" %}
+Don't forget to update your package yaml, too! It's not in one of the version sub-directories because the package determines which operator version is used.
+{% endhint %}
+
+Move into the bundle directory. You can now use opm to create the annotations.yaml and Dockerfile. Keep in mind that the new Dockerfile will be created in the directory you run the command, and it includes COPY commands. It'll also slightly re-scaffold the project.
 
 ```text
-packageName: example-operator
-channels:
-  - name: alpha
-    currentCSV: example-operator.v0.0.2   ## Updated to new version
+$ cd bundle
+$ opm alpha bundle generate -d ./3.0.0/ -u ./3.0.0/
 ```
 
-Create an updated metadata.zip containing the updated files, **the old CSV,** and any CRDs. Upload this data to the Connect portal for scanning, just like the original metadata.
+Next, you'll need to add some LABELs to the Dockerfile.
 
 ```text
-metadata.zip/
-├── example-operator.package.yaml
-├── example-operator.v0.0.2.clusterserviceversion.yaml
-├── example-operator.v0.0.1.clusterserviceversion.yaml
-└── apm_v1alpha1_example_crd.yaml
+LABEL com.redhat.openshift.versions="v4.5, v4.6"
+LABEL com.redhat.delivery.backport=true
+LABEL com.redhat.delivery.operator.bundle=true
 ```
 
-After the metadata bundle passes, you can Publish your updated operator.
+ When you're done, the finished Dockerfile should look something like this
 
+![](../.gitbook/assets/dockerfile.png)
 
+Now you can build the new image and submit it to the pipeline. 
 

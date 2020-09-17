@@ -13,7 +13,7 @@ In order to have a Certified Operator, you must first complete the Container App
 
 ### Operator Certification Workflow
 
-![](../.gitbook/assets/cert2.png)
+![](../.gitbook/assets/workflow%20%281%29.png)
 
 {% hint style="warning" %}
 Other IBM Partners program can be pursued after both certification workflows have been completed. More information can be found here: [IBM Partner Programs](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/ibm-partner-programs). 

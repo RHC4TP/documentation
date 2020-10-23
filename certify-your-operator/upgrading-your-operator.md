@@ -26,7 +26,7 @@ $ opm alpha bundle generate -d ./3.0.0/ -u ./3.0.0/
 Next, you'll need to add some LABELs to the Dockerfile.
 
 ```text
-LABEL com.redhat.openshift.versions="v4.5, v4.6"
+LABEL com.redhat.openshift.versions="v4.5,v4.6"
 LABEL com.redhat.delivery.backport=true
 LABEL com.redhat.delivery.operator.bundle=true
 ```

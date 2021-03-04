@@ -4,5 +4,3 @@ Once you have completed certification you can continue to other IBM Programs Off
 
 You can also request the official Certified Logo: [Using our Logos](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/using-red-hat-logos). 
 
-For information on marketing benefits, email us at: connect@redhat.com \(CHANGE TO MARKETING CONTACT? confirm TPSD has marketing info link\)
-

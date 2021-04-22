@@ -69,7 +69,7 @@ Getting started with UBI is designed to be easy. Use [Podman](https://developers
 
 If you need more information, refer to the full Universal Base Image Guide here**:**
 
-* [**RHEL 8 How To**](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html-single/building_running_and_managing_containers/index?lb_target=stage#using_red_hat_universal_base_images_standard_minimal_and_runtimes)
+* [**RHEL 8 How To**](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html-single/building_running_and_managing_containers/index#using_red_hat_universal_base_images_standard_minimal_and_runtimes)
 * [**RHEL 7 How To**](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux_atomic_host/7/html-single/getting_started_with_containers/index#using_red_hat_universal_base_images_standard_minimal_and_runtimes)
 * \*\*\*\*[**Adding RHEL packages to UBI**](https://app.gitbook.com/@redhat-connect/s/best-practices-guide/base-image) **\(**\*_Please scroll down_**\)**
 

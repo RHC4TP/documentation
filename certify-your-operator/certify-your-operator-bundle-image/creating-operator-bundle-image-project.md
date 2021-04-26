@@ -4,17 +4,17 @@
 
 The second step to completing a certified operator is certifying your operator bundle image. To certify your operator image you must create a _**Operator Bundle Image Project**_. 
 
-Click **ZONES & RESOURCES** at the top of the page and click **Red Hat OpenShift & containers**
+Click **PRODUCT CERTIFICATION** at the top of the page and click **Manage projects**
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/screen-shot-2021-04-26-at-3.24.58-pm.png)
 
-Click _**CERTIFY**_ 
+Click _**Create Project**_ 
 
-![](../../.gitbook/assets/certify.png)
+![](../../.gitbook/assets/screen-shot-2021-04-26-at-3.31.41-pm.png)
 
-Scroll down to Projects section and Click **ADD A PROJECT**.‌
+Select _Operator Bundle image_ in the modal then click **NEXT.**‌
 
-![](../../.gitbook/assets/projects.png)
+![](../../.gitbook/assets/screen-shot-2021-04-26-at-3.59.41-pm.png)
 
 Complete the Create New Project Wizard.
 
@@ -52,10 +52,8 @@ This information cannot be changed after project is created
 Once you have finalized all your selection click on **Create Project.**
 
 {% hint style="info" %}
-To access your project:   
-➡ Click the Project Name in the Zone \[Red Hat Openshift & Container\] &gt; Certify Page.   
-➡ You can also access your projects by going to Product Certification&gt; Manage projects 
+To access your project, go to Product Certification &gt; Manage projects 
 {% endhint %}
 
-![](../../.gitbook/assets/project_bundle.png)
+
 

@@ -4,17 +4,17 @@
 Certified container images are delivered to customers through the Red Hat Connect Image Registry to run on a supported Red Hat container platform. Your product and images will be listed in the Red Hat Container Catalog using the listing information you provide. To begin the process to Certify your Application you must first Create a Container Project.‌
 {% endhint %}
 
-Click **ZONES & RESOURCES** at the top of the page and click **Red Hat OpenShift & containers**
+Click **PRODUCT CERTIFICATION** at the top of the page and click **Manage projects**
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/screen-shot-2021-04-26-at-3.24.58-pm.png)
 
-Click _**CERTIFY**_ 
+Click _**Create Project**_ 
 
-![](../.gitbook/assets/certify.png)
+![](../.gitbook/assets/screen-shot-2021-04-26-at-3.31.41-pm.png)
 
-Scroll down to Projects section and Click **ADD A PROJECT**.‌
+Select _Container image_ in the modal then click **NEXT.**‌
 
-![](../.gitbook/assets/projects.png)
+![](../.gitbook/assets/screen-shot-2021-04-26-at-3.47.39-pm.png)
 
 Complete the Create New Project Wizard.
 

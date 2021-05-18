@@ -1,6 +1,6 @@
 # IBM Partner Programs
 
-Apart from the Partner Connect Program there are other programs you can pursue after certification is complete. 
+Apart from the Partner Connect Program there are other programs you can pursue after Operator certification is complete. 
 
 ### Red Hat Marketplace operated by IBM
 

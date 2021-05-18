@@ -1,11 +1,11 @@
 # Certification Workflow
 
-This guide will go through the Certification Process for the Red Hat OpenShift and Container Zone in Red Hat Connect. There are 2 types of Certifications: 
+This guide will go through the Certification Process for the Red Hat OpenShift and Container Zone in Red Hat Connect. There are 2 options for certification on Red Hat OpenShift: 
 
-1. Container Application 
-2. Operator 
+1. Application deployed with a Helm chart
+2. Application deployed with an Operator 
 
-In order to have a Certified Operator, you must first complete the Container Application Certification for all the applications you will be deploying with your operator. 
+In either case, you must first complete the container certification for all the components you will be deploying with your Helm chart or Operator. 
 
 ### Container Application Certification Workflow
 
@@ -16,6 +16,6 @@ In order to have a Certified Operator, you must first complete the Container App
 ![](../.gitbook/assets/workflow%20%281%29.png)
 
 {% hint style="warning" %}
-Other IBM Partners program can be pursued after both certification workflows have been completed. More information can be found here: [IBM Partner Programs](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/ibm-partner-programs). 
+Some IBM Partners program can be pursued after the Red Hat OpenShift  certification workflow has been completed. More information can be found here: [IBM Partner Programs](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/ibm-partner-programs). 
 {% endhint %}
 

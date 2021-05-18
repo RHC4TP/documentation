@@ -2,13 +2,13 @@
 
 ### Getting Software
 
-You may need download Not-for-resale \(NFR\) access to Red Hat software such as Red Hat OpenShift Container Platform. To request software access as a partner, [follow these instructions](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/software-access). Once your access has been approved, you may [download software from the Customer Portal](https://access.redhat.com/downloads/).
+Certification requires that you verify the functionality of your product on the target Red Hat platform. Through the partner program, Red Hat offers free \(also know as Not-for-resale or NFR\) subscriptions for products such as Red Hat OpenShift Container Platform. To request software access as a partner, [follow these instructions](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/software-access). Once your access has been approved, you may [download software from the Customer Portal](https://access.redhat.com/downloads/).
 
-The following are requirements for building any Certified Images. This section includes both Container Application and Operator Images. Although Labels and Licenses are not required to successfully build a container, they are required for Red Hat Certification. 
+The following are requirements for building container images such that they meet the certification criteria. This section includes both Container Application and Operator Images. Although Labels and Licenses are not required to successfully build a container, they are required for Red Hat Certification. 
 
 ### Licenses Requirements
 
-You need to include any relevant licenses within the `licenses/`directory. This is important for the end user to be aware of the terms and conditions applicable to the software. Including opens source licensing information, if open source components are included in the image. Here are some examples:  [https://choosealicense.com/](https://choosealicense.com/) 
+You need to include any relevant licenses within the `licenses/`directory in your container images. This is important for the end user to be aware of the terms and conditions applicable to the software. Including opens source licensing information, if open source components are included in the image. Here are some examples:  [https://choosealicense.com/](https://choosealicense.com/) 
 
 ### Dockerfile Requirements 
 

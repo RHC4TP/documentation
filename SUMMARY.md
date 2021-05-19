@@ -34,6 +34,7 @@
 
 ## Products Managed by Helm Charts <a id="helm-chart-certification"></a>
 
+* [Overview](helm-chart-certification/overview.md)
 * [Helm Chart Requirements](helm-chart-certification/helm-chart-requirements.md)
 * [Verifying your Helm chart](helm-chart-certification/verifying-your-helm-chart/README.md)
   * [Preparing your test environment](helm-chart-certification/verifying-your-helm-chart/preparing-your-test-environment.md)

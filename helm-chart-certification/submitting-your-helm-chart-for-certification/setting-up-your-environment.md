@@ -1,7 +1,5 @@
 # Setting up your environment
 
-Certified charts are located in the [openshift-helm-charts/charts](https://github.com/openshift-helm-charts/charts/) repository in GitHub. After you create your project in the previous section, you chart will have a dedicated subdirectory. You will use that directory for your certification work.
-
 You will use the [git](https://git-scm.com/) command, available on all major platforms. For detailed information on this command, consult its [documentation](https://git-scm.com/doc) or the [GitHub cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet/). Make sure you have _git_ on the system you'll use to submit your chart.
 
 Run the following command to create a copy of the GitHub repository in your local environment:

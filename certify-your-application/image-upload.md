@@ -65,7 +65,7 @@ If you are not using the Build Service, you will need to manually upload your im
 Cut and paste the following line to your terminal.
 
 ```text
-# docker login -u unused scan.connect.redhat.com
+# podman login -u unused scan.connect.redhat.com
 ```
 
 When prompted for the password copy and paste the Registry Key located on the Upload Your Image tab in the project.

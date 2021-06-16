@@ -10,7 +10,7 @@ curl -X GET \
 -H "X-API-KEY: [api key]"
 ```
 
-The legacy Red Hat Connect API, which is located [here](https://connect.redhat.com/api-docs), will be deprecated on July 10th, 2021 and no longer be available for use.
+The legacy Red Hat Connect API, which is located [here](https://connect.redhat.com/api-docs), will be deprecated on July 10th, 2021 and no longer be available for use.  To assist with migration, the [migration assistance](https://github.com/RHC4TP/documentation/blob/master/appendix/connect-portal-api/old-new-api-mappings.md#red-hat-connect-api-migration-assistance) page maps functionality from old endpoints to new ones.
 
 
 

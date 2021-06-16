@@ -52,5 +52,6 @@
 * [Next Steps](appendix/next-steps.md)
 * [Connect Portal API](appendix/connect-portal-api/README.md)
   * [Project Creation](appendix/connect-portal-api/project-creation.md)
+  * [Red Hat Connect API migration assistance](appendix/connect-portal-api/old-new-api-mappings.md)
 * [Introduction to Operators](appendix/operators-introduction.md)
 

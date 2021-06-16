@@ -24,7 +24,7 @@ If the image returns a Passed scan status but the Publish button is still blocke
 
 If the image returns a “Failed” scan status, the results will automatically be displayed. Click on the name of the failed item \(in this example, “has\_licenses”\) for reference to the policy guide.
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%285%29%20%281%29.png)
 
 {% hint style="info" %}
 If you receive an **Access Denied** response when accessing the Policy Guide, please open a Support Ticket. Instructions on how to open a Support Ticket can be found in the [Getting Help](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/getting-help/support-ticket) Section.

@@ -1,4 +1,4 @@
-# Red Hat Connect API igration assistance
+# Red Hat Connect API migration assistance
 
 The legacy Red Hat Connect API, which is located [here](https://connect.redhat.com/api-docs), will be deprecated on July 10th, 2021 and no longer be available for use.   The new API can be found [here](https://catalog.redhat.com/api/containers/v1/ui/).  In order to ease the transition, this page attempts to guide users to to endpoints in the new API that provide similar functionality to a deprecated one.
 

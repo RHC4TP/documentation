@@ -1,8 +1,12 @@
 ---
-description: There are two ways to Upload your Image. Below you will find both examples.
+description: >-
+  There are two ways to submit images to be published in the hosted registry
+  service.  Below you will find both examples.
 ---
 
-# Uploading your container images
+# Scanning Images to be published in registry.connect.redhat.com
+
+
 
 {% hint style="info" %}
 Make sure to take a look at the [Technical Prerequisites](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/technical-prerequisites) section to validate that your Dockerfile will pass our certification scan.
@@ -14,25 +18,23 @@ The Automated Image Build Service automates the rebuilding of your image wheneve
 
 ### **Configuration** <a id="configuration"></a>
 
-‌
-
 Configuration is very easy and straightforward. Follow the steps below:‌
 
-In the Project Page you created you will notice a left hand box, click on **Build Service**:‌
+In the Project Page you created, click on the **Builds** tab:
 
-![](../.gitbook/assets/containerzone3.png)
+![Container Project Main Page](../.gitbook/assets/screen-shot-2021-05-25-at-9.33.34-am%20%281%29.png)
 
 Click on the **Configure Build Service** tab.‌
 
-![](../.gitbook/assets/buildservicetab.png)
+![](../.gitbook/assets/screen-shot-2021-05-25-at-9.39.20-am.png)
 
-Fill in the git repo and the Dockerfile name if it has a name other than “Dockerfile”.‌
+Fill in the Git source and the Dockerfile name if it has a name other than “Dockerfile”.‌
 
-If your repository is public, then all that is needed is the git source URL \(HTTPS link\). If your repository is private, then you must configure the build service with the SSH link and a private SSH key. The git repository needs the public SSH key associated with the private key in order to successfully clone. It is recommended to create a new public and private SSH key just for the project. Never use your own personal private key.
+If your repository is public, then all that is needed is the Git source URL \(HTTPS link\). If your repository is private, then you must configure the build service with the SSH link and a private SSH key. The git repository needs the public SSH key associated with the private key in order to successfully clone. It is recommended to create a new public and private SSH key just for the project. Never use your own personal private key.
 
 SSH key files must be stored in the PEM format, using the RSA algorithm. When configuring the build service, make sure to include the “-----BEGIN RSA PRIVATE KEY-----” and “-----END RSA PRIVATE KEY-----” blocks surrounding your private SSH key.‌
 
-![](https://lh6.googleusercontent.com/PH-MUlLOpvtVmfTwBs938xJFRsJEJCa3VULuVBnGo1f7j7kJCx-6xnyjv_2PjUmVova08PFa_uU37j7xzeV50FHU5ZAAhoDKgPMVrAgFH0-87XwDD_zGsx67cWOzm1zDz29oJt_o)
+![](../.gitbook/assets/screen-shot-2021-05-25-at-9.42.20-am.png)
 
 Click **Submit** at the end of the page.‌
 
@@ -60,7 +62,9 @@ The Build Service must first be completed before it can begin the scanning proce
 
 ## Manually Upload Your Image <a id="manually-upload-your-image"></a>
 
-If you are not using the Build Service, you will need to manually upload your image from the **UPLOAD YOUR IMAGE** tab on the Projects page.‌
+If you are not using the Build Service, you will need to manually upload your image. Navigate back to your project overview landing page, and select the **Images** tab. Click on the **Push Image Manually** link**.**
+
+![](../.gitbook/assets/screen-shot-2021-05-25-at-9.46.15-am.png)
 
 Cut and paste the following line to your terminal.
 
@@ -74,7 +78,9 @@ When prompted for the password copy and paste the Registry Key located on the Up
 This Registry Key is unique per project, please make sure you are using the correct password for the project you are working on.
 {% endhint %}
 
-![Follow the step below Upload Your Image to manually upload your image](../.gitbook/assets/manualimageupload-container.png)
+![](../.gitbook/assets/screen-shot-2021-05-25-at-9.47.22-am-1.png)
+
+
 
 {% hint style="danger" %}
 If you do not have a registry key populated or are having issues pushing your image please open a Support Ticket. Instructions on how to open a Support Ticket can be found in the [Getting Help](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/getting-help/support-ticket) Section.

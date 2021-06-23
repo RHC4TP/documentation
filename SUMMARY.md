@@ -15,7 +15,8 @@
 
 * [Creating a container application project](certify-your-application/creating-a-container-application-project.md)
 * [The Certification Checklist](certify-your-application/the-certification-checklist.md)
-* [Uploading your container images](certify-your-application/image-upload.md)
+* [Scanning Images to be published in registry.connect.redhat.com](certify-your-application/image-upload.md)
+* [Scanning Images to be published in Third Party Registries](certify-your-application/remote-scan.md)
 * [Image Scanning & Verification](certify-your-application/image-scan-and-verification.md)
 
 ## Products Managed by Operators <a id="certify-your-operator"></a>

@@ -12,9 +12,9 @@ It may be necessary to refresh the browser page to see the current status.
 
 Once the image has completed the scan in Red Hat Connect repository, the image will show the results of the scan. Scans normally take about 10-15 minutes to complete.
 
-![](https://lh4.googleusercontent.com/0ff1SFj6Zi13yXPvQdSl12lqEu1aSGQeNNMeawneaCiEXp1NQtQBh9SPo2oepfmb1oZ2ei_f2YMCGcsNFQ3W7NLtH_FkXZpD6a0s8zM8x3OovctfHnmffnwMWmXqyZmf02tZVHRR)
+![](../.gitbook/assets/screen-shot-2021-05-25-at-9.50.00-am.png)
 
-The **View** button will expand on the scan results. The **Publish** button will publish the image to the Red Hat Container Catalog. It will change to **Unpublish** once an image has been published. The **Remove** button allows you to remove an image that you no longer need.
+Clicking on the certification results \(Passed/Failed\) will expand on the scan details. If the project has met all prerequisites specified in the certification checklist, you will now be able to publish/unpublish the image to the Red Hat Container Catalog. The three dots on the far right will expand a menu with options for tag changes and to delete the image. 
 
 ## Image Verification
 

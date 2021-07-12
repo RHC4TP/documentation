@@ -8,11 +8,9 @@ Make sure to take a look at the [Technical Prerequisites](https://redhat-connect
 
 If you haven't done so already, click on Images on the upper header of the project.
 
-![](../../.gitbook/assets/images.png)
+Then, click on Push Image Manually and follow the instructions.
 
-Click on Push Image Manually and follow the instructions.
-
-![](../../.gitbook/assets/image2.png)
+![](../../.gitbook/assets/screen-shot-2021-07-02-at-10.05.01-am.png)
 
 Copy the Registry Login Command
 

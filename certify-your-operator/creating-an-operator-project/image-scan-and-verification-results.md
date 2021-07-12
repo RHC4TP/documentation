@@ -2,9 +2,9 @@
 
 ## Image Scan
 
-After the image has completed being uploaded, the image will display “Scan In-Progress” in the “Status” column
+After the image has completed being uploaded, the image will display “Scanning” in the “Certification test” column and a notification will be displayed in the upper right side of the page.
 
-![](https://lh6.googleusercontent.com/Md5GfSHas9u1RwKUuIRsaR-ll2V1mIafz3DnQcX3rzEivwbuJMO0B0sVlXSB4E3mB1bVSxG1FHrxV8Xq0qWXtyGfUBoDTkbMoaTgpBIkQhZuoF7jp41vGwYOamixgPaAlrDzEuQG)
+![](../../.gitbook/assets/screen-shot-2021-07-08-at-7.04.41-pm.png)
 
 {% hint style="info" %}
 It may be necessary to refresh the browser page to see the current status.
@@ -12,9 +12,9 @@ It may be necessary to refresh the browser page to see the current status.
 
 Once the image has completed the scan in Red Hat Connect repository, the image will show the results of the scan. Scans normally take about 10-15 minutes to complete.
 
-![](../../.gitbook/assets/pasted-image-0.png)
+![](../../.gitbook/assets/images_test%20%281%29.png)
 
-The “View” button will expand on the scan results. The “Publish” button will publish the image to the Red Hat Container Catalog. It will change to “Unpublish” once and image has been published. The “Remove” button allows you to remove an image that you do not want to use or need anymore.
+The "Passed" or "Failed" Certification test link will expand on the scan results. Expanding the row will reveal the “Publish” button, which will publish the image to the Red Hat Container Catalog. It will change to “Unpublish” once and image has been published. The “Delete tag” option in the right hand menu allows you to remove a tag that you do not want to use or need anymore.
 
 ## Image Verification
 

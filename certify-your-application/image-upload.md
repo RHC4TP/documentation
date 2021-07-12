@@ -22,11 +22,13 @@ Configuration is very easy and straightforward. Follow the steps below:‌
 
 In the Project Page you created, click on the **Builds** tab:
 
-![Container Project Main Page](../.gitbook/assets/screen-shot-2021-05-25-at-9.33.34-am%20%281%29.png)
+![](../.gitbook/assets/screen-shot-2021-06-30-at-3.13.18-pm.png)
 
-Click on the **Configure Build Service** tab.‌
+Click on the **Configure Build Service** button.‌
 
-![](../.gitbook/assets/screen-shot-2021-05-25-at-9.39.20-am.png)
+![](../.gitbook/assets/screencapture-connect-stage-redhat-projects-60d30f5bbd852dbf4220902b-builds-configure-2021-06-30-15_14_47.png)
+
+Toggle the **Build Service** on.
 
 Fill in the Git source and the Dockerfile name if it has a name other than “Dockerfile”.‌
 
@@ -34,13 +36,11 @@ If your repository is public, then all that is needed is the Git source URL \(HT
 
 SSH key files must be stored in the PEM format, using the RSA algorithm. When configuring the build service, make sure to include the “-----BEGIN RSA PRIVATE KEY-----” and “-----END RSA PRIVATE KEY-----” blocks surrounding your private SSH key.‌
 
-![](../.gitbook/assets/screen-shot-2021-05-25-at-9.42.20-am.png)
+Click **Save** at the end of the page.‌
 
-Click **Submit** at the end of the page.‌
+Click **Add New Build** button on the subsequent page.‌
 
-Click **Start New Build** button at the top of the page.‌
-
-![](../.gitbook/assets/buildservicebluebutton-operator.png)
+![](../.gitbook/assets/screen-shot-2021-06-30-at-3.19.10-pm.png)
 
 Enter a tag number in the field provided
 
@@ -52,11 +52,11 @@ For example, if the initial image published is 1.0-1, the partner version is the
 
 If for some reason there is a security vulnerability or other Red Hat package update for that image, the Build Service will rebuild the image with a 1.0-2 tag to indicate a second Red Hat build of the same partner software version. 
 
-![](https://lh6.googleusercontent.com/Y3mgzPLQ_EhPcEKMchL7pwpPWPKJNjkxUZppfAoF1h3FBEo43k6kcNi-JxnUyt1ym1Fk6gY04ysKQsqkYHfvcvCBgstksRswiMxVuqRrKNGdeGf9rtb6jRyiOx--XY11fHqLMo9e)
+![](../.gitbook/assets/screen-shot-2021-06-30-at-3.21.51-pm.png)
 
 Once submitted, the new build will be added and scanned.
 
-![](https://lh6.googleusercontent.com/NInim3G8rF-DO8Xvg19sh5lR-3yO6nxs_I0LW1dH_bU4emFJx3VCspMy0Ioxjv7Rl0kCkLTtJ58luVR_xk3DlE-3ObkPnFEq8lpQHN7_rNquFc8mhSSCfxHHoR8mwd9H_IL7Pen7)
+![](../.gitbook/assets/screen-shot-2021-06-30-at-3.22.50-pm.png)
 
 The Build Service must first be completed before it can begin the scanning process for certification. If your Build Service fails or does not complete, make sure the details you entered under the Configure Build Service tab is correct and confirm that your Dockerfile conforms to the examples provided in this link.‌
 

@@ -8,7 +8,7 @@ If a container image falls below an "A" grade, a periodic email from connect@red
 
 In order to keep the image up to date, it is recommended that the partner use the Red Hat Connect Build Service located in the Project section of Red Hat Connect. The option Auto-Rebuild will automatically rebuild your container and automatically publish it.
 
-![](https://lh3.googleusercontent.com/r4bMlQ7krWNwjC7JYH-BQ9w1yrOmF6U1Mk1JFMybr3-1ViWu2QHLBnJj1ejoiLrVXfsEHuFKtcZ0SOTG1HSkR5_2yBNar0unvRMGZijMAbqXOT4glpqlmqygraG-nfsly9SLOjU6)
+![](../.gitbook/assets/screen-shot-2021-06-30-at-4.32.50-pm.png)
 
 The only requirement to use this service is that the image bits be accessible via github/gitlab. If the github is internal, ssh access to the bits is required. This service automates the rebuilding of the image whenever an updated Red Hat package is available.
 

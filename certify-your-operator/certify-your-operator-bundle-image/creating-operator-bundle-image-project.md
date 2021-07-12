@@ -12,44 +12,32 @@ Click _**Create Project**_
 
 ![](../../.gitbook/assets/screen-shot-2021-04-26-at-3.31.41-pm.png)
 
-Select _Operator Bundle image_ in the modal then click **NEXT.**‌
+Select _Red Hat OpenShift_ in the modal then click **NEXT.**‌
 
-![](../../.gitbook/assets/screen-shot-2021-04-26-at-3.59.41-pm.png)
+![](../../.gitbook/assets/screen-shot-2021-07-07-at-10.51.55-am.png)
 
-Complete the Create New Project Wizard.
+Select _Operator Bundle image_ in the modal then click **NEXT**.‌
 
-## 1. Project
+![](../../.gitbook/assets/screen-shot-2021-07-07-at-10.50.33-am.png)
 
-![](../../.gitbook/assets/bundle_image.png)
+Provide the required information to create your project.
 
-## 2. Container Type
+## 1. Project Name
 
-Select **Operator bundle image**
+![](../../.gitbook/assets/screen-shot-2021-06-30-at-4.15.34-pm-copy.png)
 
-![](../../.gitbook/assets/bundle.png)
-
-## 3. Release Category
-
-![](../../.gitbook/assets/release-category.png)
-
-## 4. OS Content Type
-
-![](../../.gitbook/assets/os_content.png)
-
-## 5. Distribution Method
+## 2. Distribution Method
 
 {% hint style="danger" %}
 This information cannot be changed after project is created
 
 * Red Hat Connect & Marketplace
   * This option will publish to both embedded OperatorHub and if applicable Red Hat Marketplace
-* Red Hat Marketplace Only
-  * This option will only show up in Red Hat Marketplace and not in any embedded OperatorHub
 {% endhint %}
 
-![](../../.gitbook/assets/bundle-distribution.png)
+![](../../.gitbook/assets/screen-shot-2021-06-30-at-4.15.34-pm-copy-2.png)
 
-Once you have finalized all your selection click on **Create Project.**
+Once you have finalized all your selection click on **Create project.**
 
 {% hint style="info" %}
 To access your project, go to Product Certification &gt; Manage projects 

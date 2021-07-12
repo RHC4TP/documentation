@@ -16,13 +16,15 @@ The Automated Image Build Service automates the rebuilding of your image wheneve
 
 Configuration is very easy and straightforward. Follow the steps below:‌
 
-In the Project Page you created you will notice a left hand box, click on **Build Service**:‌
+In the header for the Project you created you will notice a tab labeled **Build Service**:‌
 
-![](../../.gitbook/assets/buildserviceimg-operator.png)
+![](../../.gitbook/assets/screen-shot-2021-06-30-at-3.13.18-pm.png)
 
-Click on the **Configure Build Service** tab.‌
+Click on the **Configure Build Service** button.‌
 
-![](../../.gitbook/assets/buildserviceimg-operator2.png)
+![](../../.gitbook/assets/screencapture-connect-stage-redhat-projects-60d30f5bbd852dbf4220902b-builds-configure-2021-06-30-15_14_47.png)
+
+Toggle the **Build Service** on.
 
 Fill in the git repo and the Dockerfile name if it has a name other than “Dockerfile”.‌
 
@@ -30,21 +32,19 @@ If your repository is public, then all that is needed is the git source URL \(HT
 
 SSH key files must be stored in the PEM format, using the RSA algorithm. When configuring the build service, make sure to include the “-----BEGIN RSA PRIVATE KEY-----” and “-----END RSA PRIVATE KEY-----” blocks surrounding your private SSH key.‌
 
-![](https://lh6.googleusercontent.com/PH-MUlLOpvtVmfTwBs938xJFRsJEJCa3VULuVBnGo1f7j7kJCx-6xnyjv_2PjUmVova08PFa_uU37j7xzeV50FHU5ZAAhoDKgPMVrAgFH0-87XwDD_zGsx67cWOzm1zDz29oJt_o)
+Click **Save** at the end of the page.‌
 
-Click **Submit** at the end of the page.‌
+Click **Add New Build** button on the subsequent page.‌
 
-Click **Start New Build** button at the top of the page.‌
+![](../../.gitbook/assets/screen-shot-2021-06-30-at-3.19.10-pm.png)
 
-![](../../.gitbook/assets/buildservicebluebutton-operator.png)
+Enter a tag number \(the version number of the plugin\) and click **Start build**.‌
 
-Enter a tag number \(the version number of the plugin\) and click **SUBMIT**.‌
-
-![](https://lh6.googleusercontent.com/Y3mgzPLQ_EhPcEKMchL7pwpPWPKJNjkxUZppfAoF1h3FBEo43k6kcNi-JxnUyt1ym1Fk6gY04ysKQsqkYHfvcvCBgstksRswiMxVuqRrKNGdeGf9rtb6jRyiOx--XY11fHqLMo9e)
+![](../../.gitbook/assets/screen-shot-2021-06-30-at-3.21.51-pm.png)
 
 Once submitted, the new build will be added and scanned.
 
-![](https://lh6.googleusercontent.com/NInim3G8rF-DO8Xvg19sh5lR-3yO6nxs_I0LW1dH_bU4emFJx3VCspMy0Ioxjv7Rl0kCkLTtJ58luVR_xk3DlE-3ObkPnFEq8lpQHN7_rNquFc8mhSSCfxHHoR8mwd9H_IL7Pen7)
+![](../../.gitbook/assets/screen-shot-2021-06-30-at-3.22.50-pm.png)
 
 The Build Service must first be completed before it can begin the scanning process for certification. If your Build Service fails or does not complete, make sure the details you entered under the Configure Build Service tab is correct and confirm that your Dockerfile conforms to the examples provided in this link.‌
 
@@ -58,13 +58,13 @@ Cut and paste the following line to your terminal.
 # docker login -u unused -e none scan.connect.redhat.com
 ```
 
-When prompted for the password copy and paste the Registry Key located on the Upload Your Image tab in the project.
+When prompted for the password copy and paste the Registry Key located in the **Push your image** link on the **Images** tab in the project.
 
 {% hint style="warning" %}
 This Registry Key is unique per project, please make sure you are using the correct password for the project you are working on.
 {% endhint %}
 
-![Follow the steps under Upload Your Image to manually upload your image](../../.gitbook/assets/manualimageupload-operator.png)
+![](../../.gitbook/assets/screen-shot-2021-05-25-at-9.47.22-am-1.png)
 
 {% hint style="danger" %}
 If you do not have a registry key populated or are having issues pushing your image please open a Support Ticket. Instructions on how to open a Support Ticket can be found in the [Getting Help](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/getting-help/support-ticket) Section.

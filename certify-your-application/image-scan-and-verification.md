@@ -4,8 +4,6 @@
 
 After the image has completed being uploaded, the image will display _Scan In-Progress_ in the **Status** column:
 
-![](https://lh6.googleusercontent.com/Md5GfSHas9u1RwKUuIRsaR-ll2V1mIafz3DnQcX3rzEivwbuJMO0B0sVlXSB4E3mB1bVSxG1FHrxV8Xq0qWXtyGfUBoDTkbMoaTgpBIkQhZuoF7jp41vGwYOamixgPaAlrDzEuQG)
-
 {% hint style="info" %}
 It may be necessary to refresh the browser page to see the current status.
 {% endhint %}

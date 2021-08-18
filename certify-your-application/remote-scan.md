@@ -2,7 +2,13 @@
 
 Images published in third party registries such as quay.io or DockerHub  are scanned from their remote location instead of pushing the image to scan.connect.redhat.com.
 
-_Caution_: The image can be scanned from any location the system has access to, but will be published to the catalog with the location specified in projects settings. _It is the user's responsibility to ensure the image is in the correct location when published._
+_Caution_: The image can be scanned from any location the system has access to, but will be published to the catalog with the location specified in the project's settings. _It is the user's responsibility to ensure the image is in the correct location when published._
+
+| **Important Note if using DockerHub as a Scanning Source** |
+| ---------------------------|
+| Docker imposes strict rate limits on unauthenticated pull requests, as well as pull requests using Free accounts. Unauthenticated/Free account pull requests originating from Red Hat IP addresses are automatically blocked, which will causes scanning failures. Therefore, you **must** supply authentication for a Pro or higher level DockerHub account to prevent scanning failures due to rate-limiting.
+|_This is required even if the the DockerHub repository is open for unauthenticated access._
+| Red Hat is not responsible for scanning errors caused by rate-limiting due to using unauthenticated access or the use of an authenticated account that has hit its daily pull limit.
 
 ## **Initiating an image certification scan**
 

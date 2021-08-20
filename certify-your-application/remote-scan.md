@@ -1,14 +1,14 @@
 # Scanning Images to be published in Third Party Registries
 
-Images published in third party registries such as quay.io or DockerHub  are scanned from their remote location instead of pushing the image to scan.connect.redhat.com.
+Images published in third party registries such as quay.io or DockerHub are scanned from their remote location instead of pushing the image to scan.connect.redhat.com.
 
 _Caution_: The image can be scanned from any location the system has access to, but will be published to the catalog with the location specified in the project's settings. _It is the user's responsibility to ensure the image is in the correct location when published._
 
 | **Important Note if using DockerHub as a Scanning Source** |
-| ---------------------------|
-| Docker imposes strict rate limits on unauthenticated pull requests, as well as pull requests using Free accounts. Unauthenticated/Free account pull requests originating from Red Hat IP addresses are automatically blocked, which will causes scanning failures. Therefore, you **must** supply authentication for a Pro or higher level DockerHub account to prevent scanning failures due to rate-limiting.
-|_This is required even if the the DockerHub repository is open for unauthenticated access._
-| Red Hat is not responsible for scanning errors caused by rate-limiting due to using unauthenticated access or the use of an authenticated account that has hit its daily pull limit.
+| :--- |
+| Docker imposes strict rate limits on unauthenticated pull requests, as well as pull requests using Free accounts. Unauthenticated/Free account pull requests originating from Red Hat IP addresses are automatically blocked, which will causes scanning failures. Therefore, you **must** supply authentication for a Pro or higher level DockerHub account to prevent scanning failures due to rate-limiting. |
+| _This is required even if the the DockerHub repository is open for unauthenticated access._ |
+| Red Hat is not responsible for scanning errors caused by rate-limiting due to using unauthenticated access or the use of an authenticated account that has hit its daily pull limit. |
 
 ## **Initiating an image certification scan**
 
@@ -24,12 +24,12 @@ _via api:_
 
 Save the following as a script e.g. patch-secret.sh. Set the script as executable.
 
-`#!/bin/bash  
-auths=$(cat ./temp-authfile.json)  
-escaped_auths="$(echo $auths | jq -R)"  
-payload="{\"container\": {\"kube_objects\": $escaped_auths}}"  
-curl --location -g --request PATCH "https://catalog.redhat.com/api/containers/v1/projects/certification/id/$1" \  
- --header 'Content-Type: application/json' --header "X-API-KEY: $2" --data-raw "$payload"`
+`#!/bin/bash    
+auths=$(cat ./temp-authfile.json)    
+escaped_auths="$(echo $auths | jq -R)"    
+payload="{\"container\": {\"kube_objects\": $escaped_auths}}"    
+curl --location -g --request PATCH "https://catalog.redhat.com/api/containers/v1/projects/certification/id/$1" \    
+--header 'Content-Type: application/json' --header "X-API-KEY: $2" --data-raw "$payload"`
 
 Run the script passing in the project ID and API key as CLI parameters:
 
@@ -43,12 +43,12 @@ Add the contents of temp-authfile.json to the 'Pull Secret' field as shown in th
 
 Using the API requires having a Red Hat Connect API key.
 
-`curl --location -g --request POST 'https://catalog.redhat.com/api/v1/projects/certification/id/{identifier}/requests/scans' \  
---header 'Content-Type: application/json' \  
---header 'X-API-KEY: {RHC API Key}' \  
---data-raw '{  
- "pull_spec": "string",  
- "tag": "string"  
+`curl --location -g --request POST 'https://catalog.redhat.com/api/containers/v1/projects/certification/id/{identifier}/requests/scans' \    
+--header 'Content-Type: application/json' \    
+--header 'X-API-KEY: {RHC API Key}' \    
+--data-raw '{    
+"pull_spec": "string",    
+"tag": "string"    
 }'`
 
 parameters**:**

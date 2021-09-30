@@ -10,7 +10,6 @@ Before you begin OpenShift certification, a few prerequisites must be met. These
 * [ ] [Manage your Users](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/managing-your-account/managing-users)
 * [ ] [Complete Export Compliance](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/export-compliance) _\(Note: This is only required when distributing your containers through the Red Hat registry and/or the Red Hat Marketplace\)_
 * [ ] [Become a TSANet member](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/tsanet)
-* [ ] [Join the OpenShift & Container Zone](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/request-container-zone-access) 
 
 
 

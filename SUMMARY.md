@@ -9,7 +9,6 @@
 * [Program Prerequisites](program-on-boarding/prerequisites.md)
 * [Technical Prerequisites](program-on-boarding/technical-prerequisites.md)
 * [Containers and the Red Hat Universal Base Images \(UBI\)](program-on-boarding/containers-with-red-hat-universal-base-image-ubi.md)
-* [Request Container Zone access](program-on-boarding/request-container-zone-access.md)
 
 ## Container Certification <a id="certify-your-application"></a>
 

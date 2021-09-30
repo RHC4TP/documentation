@@ -9,7 +9,7 @@ In either case, you must first complete the container certification for all the 
 
 ### Container Application Certification Workflow
 
-![](../.gitbook/assets/cert1.png)
+![](../.gitbook/assets/cert1%20%281%29.png)
 
 ### Operator Certification Workflow
 

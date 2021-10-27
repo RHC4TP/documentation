@@ -2,13 +2,13 @@
 
 
 
-The second step to completing a certified operator is certifying your operator bundle image. To certify your operator image you must create a _**Operator Bundle Image Project**_. 
+The second step to completing a certified operator is certifying your operator bundle image. To certify your operator image you must create a _**Operator Bundle Image Project**_.&#x20;
 
-Click **PRODUCT CERTIFICATION** at the top of the page and click **Manage projects**
+Click **PRODUCT CERTIFICATION** at the top of the page and click** Manage certification projects**
 
-![](../../.gitbook/assets/screen-shot-2021-04-26-at-3.24.58-pm.png)
+![](../../.gitbook/assets/screenshot1.png)
 
-Click _**Create Project**_ 
+Click _**Create Project**_&#x20;
 
 ![](../../.gitbook/assets/screen-shot-2021-04-26-at-3.31.41-pm.png)
 
@@ -24,24 +24,22 @@ Provide the required information to create your project.
 
 ## 1. Project Name
 
-![](../../.gitbook/assets/screen-shot-2021-06-30-at-4.15.34-pm-copy.png)
+![](../../.gitbook/assets/screenshot2.png)
 
 ## 2. Distribution Method
 
 {% hint style="danger" %}
 This information cannot be changed after project is created
 
-* Red Hat Connect & Marketplace
-  * This option will publish to both embedded OperatorHub and if applicable Red Hat Marketplace
-{% endhint %}
+* Red Hat Certified&#x20;
+* Red Hat Marketplace
 
-![](../../.gitbook/assets/screen-shot-2021-06-30-at-4.15.34-pm-copy-2.png)
+If you are certifying for both options you will need to create 2 separate projects.&#x20;
+{% endhint %}
 
 Once you have finalized all your selection click on **Create project.**
 
 {% hint style="info" %}
-To access your project, go to Product Certification &gt; Manage projects 
+To access your project, go to Product Certification > Manage certification projects&#x20;
 {% endhint %}
-
-
 

@@ -10,7 +10,7 @@ description: >-
 
 The following static values should be used when creating Projects within the the OpenShift & Containers Zone:
 
-```text
+```
 rh_product_id: 3602271
 rh_product_version: 3602281
 ```
@@ -25,31 +25,31 @@ First, using the [Connect](https://connect.redhat.com) web interface, a Product 
 
 #### Create Product
 
-1. Navigate to **Product Certification** &gt; **Manage products** &gt; **Create Listing**
-2. Enter **Product name and major version**
-3. Select **OpenShift Operator or Containerized Product**
-4. Click **Create listing**
+1. Navigate to **Product Certification** > **Manage products** > **Create Listing**
+2. Enter** Product name and major version**
+3. Select** OpenShift Operator or Containerized Product**
+4. Click** Create listing**
 
 ### Company ID
 
 Collect the Company ID from the [Connect](https://connect.redhat.com) web interface:
 
-1. Navigate to **My Company** &gt; **View company information**
+1. Navigate to **My Company** > **View company information**
 2. Click **EDIT COMPANY PROFILE**
-3. Note the URL. It will be in the following format:
+3.  Note the URL. It will be in the following format:
 
-  
-   `https://connect.redhat.com/node/#######/edit`
+    \
+    `https://connect.redhat.com/node/#######/edit`
 
 
 
-   The `#######` portion is the Company ID. Record this 7 digit integer.
+    The `#######` portion is the Company ID. Record this 7 digit integer.
 
 ### API Key
 
 Generate an API key from the [Connect](https://connect.redhat.com) web interface:
 
-1. Navigate to **Product Certification** &gt; **Manage container API keys**
+1. Navigate to **Product Certification** > **Manage container API keys**
 2. Click **Generate New Key**
 3. Enter a Key Name
 4. Click **Copy** to copy the API Key
@@ -59,44 +59,47 @@ Generate an API key from the [Connect](https://connect.redhat.com) web interface
 
 Perform the following steps to create a Project using the Connect API:
 
-1. Ensure that the following values have been collected from the Prerequisites and Static Values sections above:  
-  
-   `rh_product_id`
+1.  Ensure that the following values have been collected from the Prerequisites and Static Values sections above:\
+    \
+    `rh_product_id`
 
-   `rh_product_version`
+    `rh_product_version`
 
-   `company_id`  
+    `company_id`\
 
-2. Note the following option choices and values:  
-  
-   OS Content Type \(`os_content_type`\):  
-    - RHEL - `Red Hat Enterprise Linux`
+2.  Note the following option choices and values:\
+    \
+    OS Content Type (`os_content_type`):\
+    &#x20;\- RHEL - `Red Hat Enterprise Linux`
 
-    - UBI - `Red Hat Universal Base Image (UBI)`
-
-
-
-   Distribution Method \(`distribution_method`\):
-
-    - Red Hat Container Catalog - `rhcc`
-
-    - Red Hat Marketplace Only - `marketplace_only`
-
-    - External Registry - `external`
-
-    - Non-Registry - `non_registry`
+    &#x20;\- UBI - `Red Hat Universal Base Image (UBI)`
 
 
 
-   Registry Vendor \(`registry_vendor`\):
+    Distribution Method (`distribution_method`):
 
-    - Red Hat Container Catalog - `""`\(empty string\)
+    &#x20;\- Red Hat Container Catalog - `rhcc`
 
-    - External Registry - `Own` OR `Docker` OR `Quay.io`
+    &#x20;\- Red Hat Marketplace Only - `marketplace_only`
 
-3. Run the following command to create a new Project, replacing API\_KEY, PROJECT\_NAME, COMPANY\_ID, and REPO\_NAMESPACE with their respective values:  Note: This example creates a UBI container Project using an external registry.
+    &#x20;\- External Registry - `external`
 
-```text
+    &#x20;\- Non-Registry - `non_registry`
+
+
+
+    Registry Vendor (`registry_vendor`):
+
+    &#x20;\- Red Hat Container Catalog - `""`(empty string)
+
+    &#x20;\- External Registry - `Own` OR `Docker` OR `Quay.io`
+
+
+3. Run the following command to create a new Project, replacing API\_KEY, PROJECT\_NAME, COMPANY\_ID, and REPO\_NAMESPACE with their respective values:\
+   \
+   Note: This example creates a UBI container Project using an external registry.
+
+```
 $ curl -X POST "https://connect.redhat.com/api/v2/projects" \
 -H "accept: */*" \
 -H "Authorization: Bearer API_KEY" \
@@ -104,29 +107,27 @@ $ curl -X POST "https://connect.redhat.com/api/v2/projects" \
 -d "{\"zone\":\"containers\",\"project_name\":\"PROJECT_NAME\",\"company_id\":COMPANY_ID,\"project_type\":\"Container Application\",\"rel_cat\":\"generally_available\",\"rh_product_id\":3602271,\"rh_product_version\":3602281,\"os_content_type\":\"Red Hat Universal Base Image (UBI)\",\"registry_vendor\":\"Own\",\"registry_override_instruct\":\"Registry usage instructions here.\",\"repo\":\"REPO_NAMESPACE\",\"repo_desc\":\"Description of repo.\",\"repo_path\":\"registry.example.com:5000/path/to/repository\",\"support_platforms\":[\"OpenShift Container Platform\"],\"distribution_method\":\"external\"}"
 ```
 
-        Example successful output:
+&#x20;       Example successful output:
 
-```text
+```
 "status":"Ok","message":"Project created.","code":200,"data":{"rid":"4209251","pid":"ospid-3b0fedb9-c611-4a70-bf1e-b2a6323dd00e","api":"https://connect.redhat.com/api/v2/projects/ospid-3b0fedb9-c611-4a70-bf1e-b2a6323dd00e"}}
 ```
 
-    4. Verify the new project exists:
+&#x20;   4\. Verify the new project exists:
 
-```text
+```
 $ curl -X GET "https://connect.redhat.com/api/v2/projects/PROJECT_ID" \
 -H "accept: */*" \
 -H  "Authorization: Bearer API_KEY"
 ```
 
-    5. Attach the Project to the Product:
+&#x20;   5\. Attach the Project to the Product:
 
-        1. Navigate to Partner Connect using a web browser  
-        2. Select **Product Certification** &gt; **Manage products**  
-        3. Select the Product  
-        4. Click **Certification Projects** on the left side  
-        5. Click the appropriate **Attach Project** button \(note Project type created above\)  
-        6. Select the new Project  
-        7. Click **Attach**
-
-
+&#x20;       1\. Navigate to Partner Connect using a web browser\
+&#x20;       2\. Select **Product Certification** > **Manage products**\
+**        **3. Select the Product\
+&#x20;       4\. Click **Certification Projects** on the left side\
+&#x20;       5\. Click the appropriate **Attach Project **button (note Project type created above)\
+&#x20;       6\. Select the new Project\
+&#x20;       7\. Click **Attach**
 

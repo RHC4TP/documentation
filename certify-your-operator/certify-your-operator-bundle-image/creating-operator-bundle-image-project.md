@@ -2,7 +2,7 @@
 
 
 
-The second step to completing a certified operator is certifying your operator bundle image. To certify your operator image you must create a _**Operator Bundle Image Project**_.&#x20;
+The second step to completing a certified operator is certifying your operator bundle image. To certify your operator image you must create a _**Operator Bundle Image Project**_
 
 Click **PRODUCT CERTIFICATION** at the top of the page and click** Manage certification projects**
 

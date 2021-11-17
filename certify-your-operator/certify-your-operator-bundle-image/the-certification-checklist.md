@@ -18,3 +18,5 @@ The checklist is separated into the following sections:
   * Registry details are displayed in the Catalog so users can pull your container.
 * Complete your company profile
   * Ensure that your company profile is up to date, as it will be published in the Catalog along with your certified product.
+* **Complete Red Hat Marketplace publication tasks (if distributing to Red Hat Marketplace)**
+  * Successful completion of this task item is at the discretion of the Red Hat Marketplace onboarding team within IBM. When you click on "Become a seller" they will be notified and you will need to work with that team to move forward.

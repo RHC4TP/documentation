@@ -35,6 +35,8 @@ This information cannot be changed after project is created
 * Red Hat Marketplace
 
 If you are certifying for both options you will need to create 2 separate projects.&#x20;
+
+**Note**: Think carefully about your desired distribution method and where you want your Operator to be listed. We do not recommend creating two separate projects as this means you will have two separate listings within OperatorHub and our Red Hat Container Catalog, and both Operators will need to be maintained over time.
 {% endhint %}
 
 Once you have finalized all your selection click on **Create project.**

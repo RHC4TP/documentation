@@ -13,7 +13,7 @@ The checklist is separated into the following sections:
 * Test your operator bundle data and submit a pull request
   * Test locally or via our hosted pipeline ([more info](uploading-your-operator-bundle-image.md))
 * Accept the Red Hat Container Appendix
-  * Publishing a container requires agreeing to terms re![](broken-reference)garding the distribution of partner container images.
+  * Publishing a container requires agreeing to terms regarding the distribution of partner container images.
 * Provide repository details used for pulling your container
   * Registry details are displayed in the Catalog so users can pull your container.
 * Complete your company profile

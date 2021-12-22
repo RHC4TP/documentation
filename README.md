@@ -7,8 +7,6 @@ The process involves preparing your application so that it meets the certificati
 It should be noted that the certification is not a one-time action, but assumes a commitment to maintaining it across its life cycle, i.e., updating it as needed for security or other reasons.
 
 {% hint style="success" %}
-The Certified Technology Ecosystem Team offers an OpenShift Certification Discovery Workshop. This is a 1 hour, high level overview of the certification program with plenty of time for initial Q&A. If you are interested please fill out the [assessment in this link](https://docs.google.com/forms/d/e/1FAIpQLSeAeisVs-mlUQkUcSqALlvWxULnnH6mxFgXfRWrw3Df_ZdpSw/viewform?usp=sf_link) and one of our engineers will reach out to you shortly afterward to schedule the call. 
+The Certified Technology Ecosystem Team offers an OpenShift Technical Discovery Workshop. This is a 30 minute, high level conversation to better understand your product and how we can partner together. If you are interested please fill out the [assessment in this link](https://docs.google.com/forms/d/e/1FAIpQLSeAeisVs-mlUQkUcSqALlvWxULnnH6mxFgXfRWrw3Df\_ZdpSw/viewform?usp=sf\_link) and one of our engineers will reach out to you shortly afterward to schedule the call.&#x20;
 {% endhint %}
-
-
 

@@ -10,7 +10,7 @@
 * [Technical Prerequisites](program-on-boarding/technical-prerequisites.md)
 * [Containers and the Red Hat Universal Base Images (UBI)](program-on-boarding/containers-with-red-hat-universal-base-image-ubi.md)
 
-## Container Certification <a href="certify-your-application" id="certify-your-application"></a>
+## Container Certification <a href="#certify-your-application" id="certify-your-application"></a>
 
 * [Creating a container application project](certify-your-application/creating-a-container-application-project.md)
 * [The Certification Checklist](certify-your-application/the-certification-checklist.md)
@@ -18,7 +18,7 @@
 * [Scanning Images to be published in Third Party Registries](certify-your-application/remote-scan.md)
 * [Image Scanning & Verification](certify-your-application/image-scan-and-verification.md)
 
-## Products Managed by Operators <a href="certify-your-operator" id="certify-your-operator"></a>
+## Products Managed by Operators <a href="#certify-your-operator" id="certify-your-operator"></a>
 
 * [Certify your Operator Image](certify-your-operator/creating-an-operator-project/README.md)
   * [Creating Container Project](certify-your-operator/creating-an-operator-project/creating-container-project.md)
@@ -26,12 +26,10 @@
   * [Uploading your Operator Image](certify-your-operator/creating-an-operator-project/image-upload.md)
   * [Image Scanning and Verification](certify-your-operator/creating-an-operator-project/image-scan-and-verification-results.md)
 * [Certify your Operator Bundle](certify-your-operator/certify-your-operator-bundle-image/README.md)
-  * [Creating Operator Bundle Image Project](certify-your-operator/certify-your-operator-bundle-image/creating-operator-bundle-image-project.md)
-  * [The Certification Checklist](certify-your-operator/certify-your-operator-bundle-image/the-certification-checklist.md)
-  * [Uploading your Operator Bundle](certify-your-operator/certify-your-operator-bundle-image/uploading-your-operator-bundle-image.md)
+  * [Operator Bundle Image Documentation](certify-your-operator/certify-your-operator-bundle-image/creating-operator-bundle-image-project.md)
 * [Upgrading your Operator](certify-your-operator/upgrading-your-operator.md)
 
-## Products Managed by Helm Charts <a href="helm-chart-certification" id="helm-chart-certification"></a>
+## Products Managed by Helm Charts <a href="#helm-chart-certification" id="helm-chart-certification"></a>
 
 * [Overview](helm-chart-certification/overview.md)
 * [Helm Chart Requirements](helm-chart-certification/helm-chart-requirements.md)

@@ -1,6 +1,6 @@
 # Creating Container Project
 
-Click **PRODUCT CERTIFICATION** at the top of the page and click** Manage projects**
+Click **PRODUCT CERTIFICATION** at the top of the page and click **Manage projects**
 
 ![](../../.gitbook/assets/screen-shot-2021-04-26-at-3.24.58-pm.png)
 
@@ -35,7 +35,7 @@ This information cannot be changed after project is created
 {% hint style="danger" %}
 This information cannot be changed after project is created
 
-_If this is for the Red Hat Marketplace, you **cannot **choose Non-Red Hat Container Registry. You have the other 2 options to chose from and must complete _[_Export Compliance_](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/export-compliance)_. _
+_If this is for the Red Hat Marketplace, you **cannot** choose Non-Red Hat Container Registry. You have the other 2 options to chose from and must complete_ [_Export Compliance_](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/export-compliance)_._&#x20;
 {% endhint %}
 
 ![](../../.gitbook/assets/screen-shot-2021-06-30-at-2.59.15-pm.png)

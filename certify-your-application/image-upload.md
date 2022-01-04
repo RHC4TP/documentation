@@ -12,15 +12,15 @@ description: >-
 Make sure to take a look at the [Technical Prerequisites](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/technical-prerequisites) section to validate that your Dockerfile will pass our certification scan.
 {% endhint %}
 
-## The Build Service <a href="the-build-service" id="the-build-service"></a>
+## The Build Service <a href="#the-build-service" id="the-build-service"></a>
 
 The Automated Image Build Service automates the rebuilding of your image whenever an updated Red Hat package is available. It also scans your image (after a successful build) for any security vulnerabilities that may be present prior to publishing your image to the Container Catalog. The build service clones your Github/Gitlab repository onto a build server, and uses the Dockerfile to build your image. It is a requirement from Red Hat to properly maintain your image by keeping up to date with the latest security updates. By not using the automated build service, you are opting into manually maintaining and rebuilding your image every time an update is released.‌
 
-### **Configuration** <a href="configuration" id="configuration"></a>
+### **Configuration** <a href="#configuration" id="configuration"></a>
 
 Configuration is very easy and straightforward. Follow the steps below:‌
 
-In the Project Page you created, click on the **Builds **tab:
+In the Project Page you created, click on the **Builds** tab:
 
 ![](../.gitbook/assets/screen-shot-2021-06-30-at-3.13.18-pm.png)
 
@@ -44,7 +44,7 @@ Click **Add New Build** button on the subsequent page.‌
 
 Enter a tag number in the field provided
 
-### Image Tagging <a href="configuration" id="configuration"></a>
+### Image Tagging <a href="#configuration" id="configuration"></a>
 
 Tag version numbers follow the convention of using a dash "-" and then a number in order to accommodate Red Hat package updates that are independent of the partner application.
 
@@ -60,9 +60,9 @@ Once submitted, the new build will be added and scanned.
 
 The Build Service must first be completed before it can begin the scanning process for certification. If your Build Service fails or does not complete, make sure the details you entered under the Configure Build Service tab is correct and confirm that your Dockerfile conforms to the examples provided in this link.‌
 
-## Manually Upload Your Image <a href="manually-upload-your-image" id="manually-upload-your-image"></a>
+## Manually Upload Your Image <a href="#manually-upload-your-image" id="manually-upload-your-image"></a>
 
-If you are not using the Build Service, you will need to manually upload your image. Navigate back to your project overview landing page, and select the **Images** tab. Click on the **Push Image Manually **link**.**
+If you are not using the Build Service, you will need to manually upload your image. Navigate back to your project overview landing page, and select the **Images** tab. Click on the **Push Image Manually** link**.**
 
 ![](../.gitbook/assets/screen-shot-2021-05-25-at-9.46.15-am.png)
 

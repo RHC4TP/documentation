@@ -8,7 +8,7 @@ UBI FAQ's -including licensing information can be found [here](https://developer
 
 UBI: Images, repositories, and packages details can be found [here](https://access.redhat.com/articles/4238681).
 
-### **NEW: Expanded scope of Red Hat Container Certification **
+### **NEW: Expanded scope of Red Hat Container Certification**&#x20;
 
 **‌**Red Hat Partner Connect program has expanded the scope of the Red Hat Container Certification to enable Red Hat technology partners to include Red Hat Enterprise Linux (RHEL) user space packages. This means that when partners build upon UBI base images, partners will be able to use any package from Red Hat Enterprise Linux user space required to run their software (except the kernel) and  re-distribute these certified images through Red Hat or non-Red Hat container registries (e.g. Quay.io, Docker.io, a private registry  etc).
 
@@ -29,23 +29,23 @@ As required by expanded scope of Container Certification we have updated Contain
 
 Red Hat Container Certification program offers the following two options for the distribution of certified container images:
 
-* **Red Hat Container Registry: ** Managed by Red Hat at no cost to partners.  This distribution option is available for container images whether you use UBI or  RHEL7 base image. This option requires compliance with U.S. export control laws. See details in our [Export compliance guide](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/export-compliance)
+* **Red Hat Container Registry:** Managed by Red Hat at no cost to partners.  This distribution option is available for container images whether you use UBI or  RHEL7 base image. This option requires compliance with U.S. export control laws. See details in our [Export compliance guide](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/export-compliance)
 * **Non-Red Hat Container Registry:** In this option your can distribute through your organization’s own registry or use any public registry such as Quay.io registry, Docker.io registry etc. This option is only available for container images built with one of the [Universal Base images](https://access.redhat.com/articles/4238681) (ubi, ubi-init, ubi-minimal).&#x20;
 
 #### **Recommended repository names for container images**
 
-In alignment with Red Hat’s container repo policy it is recommended to explicitly indicate the RHEL version in repo names (like so: -ubi7, -ubi8, rhel7, rhel8). ** **
+In alignment with Red Hat’s container repo policy it is recommended to explicitly indicate the RHEL version in repo names (like so: -ubi7, -ubi8, rhel7, rhel8). ****&#x20;
 
-** Repository name format: <**Container Registry name>/Namespace/Repository
+&#x20;**Repository name format: <**Container Registry name>/Namespace/Repository
 
 {% hint style="success" %}
-_**Example:  **_** ** quay.io/MyCompany/MyProduct**-ubi7**
+_**Example:**_**   ** quay.io/MyCompany/MyProduct**-ubi7**
 {% endhint %}
 
 _**\*Note: I**f a container image is created with UBI7 or UBI8 base image and includes RHEL7 or RHEL8 packages (except kernel) please use suffix -**rhel7 or -rhel8.**_
 
 It is recommended so users can clearly identify the operating system in the container image to understand support implications with respect to underlying RHEL host. It also helps prevent naming conflicts between images that need to be built and distributed for different versions of RHEL.\
-****_**Note: **_Red Hat Enterprise Linux Container Compatibility Matrix is outlined [here](https://access.redhat.com/support/policy/rhel-container-compatibility).\
+****_**Note:**_ Red Hat Enterprise Linux Container Compatibility Matrix is outlined [here](https://access.redhat.com/support/policy/rhel-container-compatibility).\
 ****
 
 #### **Building, running and managing containers with UBI**
@@ -71,7 +71,7 @@ If you need more information, refer to the full Universal Base Image Guide here*
 
 * [**RHEL 8 How To**](https://access.redhat.com/documentation/en-us/red\_hat\_enterprise\_linux/8/html-single/building\_running\_and\_managing\_containers/index?lb\_target=stage#using\_red\_hat\_universal\_base\_images\_standard\_minimal\_and\_runtimes)
 * [**RHEL 7 How To**](https://access.redhat.com/documentation/en-us/red\_hat\_enterprise\_linux\_atomic\_host/7/html-single/getting\_started\_with\_containers/index#using\_red\_hat\_universal\_base\_images\_standard\_minimal\_and\_runtimes)
-* ****[**Adding RHEL packages to UBI**](https://app.gitbook.com/@redhat-connect/s/best-practices-guide/base-image)** (**\*_Please scroll down_**)**
+* ****[**Adding RHEL packages to UBI**](https://app.gitbook.com/@redhat-connect/s/best-practices-guide/base-image) **(**\*_Please scroll down_**)**
 
 **Dockerfile Requirements:**
 

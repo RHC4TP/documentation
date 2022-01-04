@@ -11,3 +11,7 @@ Once you have certified your operator image you can continue to the last step fo
 ### 2. Operator Bundle Image Certification&#x20;
 
 Once this section is complete, you will be able to publish your operator in OpenShift embedded OperatorHub and, if desired, the Red Hat Marketplace powered by IBM.&#x20;
+
+{% hint style="warning" %}
+Documentation for Operator Bundle Image Certification has moved to: [Red Hat OpenShift Certification Workflow Guide](https://access.redhat.com/documentation/en-us/red\_hat\_openshift\_certification/4.9/html/red\_hat\_openshift\_software\_certification\_workflow\_guide/index)
+{% endhint %}

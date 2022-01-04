@@ -26,9 +26,9 @@ First, using the [Connect](https://connect.redhat.com) web interface, a Product 
 #### Create Product
 
 1. Navigate to **Product Certification** > **Manage products** > **Create Listing**
-2. Enter** Product name and major version**
-3. Select** OpenShift Operator or Containerized Product**
-4. Click** Create listing**
+2. Enter **Product name and major version**
+3. Select **OpenShift Operator or Containerized Product**
+4. Click **Create listing**
 
 ### Company ID
 
@@ -125,9 +125,9 @@ $ curl -X GET "https://connect.redhat.com/api/v2/projects/PROJECT_ID" \
 
 &#x20;       1\. Navigate to Partner Connect using a web browser\
 &#x20;       2\. Select **Product Certification** > **Manage products**\
-**        **3. Select the Product\
+&#x20;       ****        3. Select the Product\
 &#x20;       4\. Click **Certification Projects** on the left side\
-&#x20;       5\. Click the appropriate **Attach Project **button (note Project type created above)\
+&#x20;       5\. Click the appropriate **Attach Project** button (note Project type created above)\
 &#x20;       6\. Select the new Project\
 &#x20;       7\. Click **Attach**
 

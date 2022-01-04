@@ -15,7 +15,7 @@ You need to include any relevant licenses within the `licenses/`directory in you
 1. The Base image must be (or must be based on) a supported Red Hat image, such as Red Hat Enterprise Linux or [Red Hat Universal Base Image](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/containers-with-red-hat-universal-base-image-ubi). Any third party or community supported images such as Ubuntu, Debian, Alpine, CentOS etc are not supported by Red Hat and cannot be certified.
 2. The following labels must exist: **name**, **maintainer**, **vendor**, **version**, **release,** **summary & description.**
 
-#### **Example Dockerfile for Container Application: **
+#### **Example Dockerfile for Container Application:**&#x20;
 
 ```
 FROM registry.redhat.io/rhel7

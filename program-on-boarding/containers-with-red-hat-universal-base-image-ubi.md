@@ -2,15 +2,15 @@
 
 Red Hat Universal Base Images (UBI) are OCI-compliant container base operating system images with complementary runtime languages and packages that are freely redistributable. Like previous base images, they are built from portions of Red Hat Enterprise Linux (RHEL). UBI images can be obtained from the [Red Hat container catalog](https://access.redhat.com/containers/#/product/5c180b28bed8bd75a2c29a63) and be built and deployed anywhere.
 
-Red Hat Universal Base Images (UBI)  provide the same quality trusted foundation for building container images as their non-UBI predecessors (`rhel6`, `rhel7`, `rhel-init`, and `rhel-minimal` base images), but offer more freedom in how they are used and distributed.
+Red Hat Universal Base Images (UBI) provide the same quality trusted foundation for building container images as their non-UBI predecessors (`rhel6`, `rhel7`, `rhel-init`, and `rhel-minimal` base images), but offer more freedom in how they are used and distributed.
 
-UBI FAQ's -including licensing information can be found [here](https://developers.redhat.com/articles/ubi-faq/?redirect\_fragment=resources#error=login\_required\&state=e8bb7295-2fb7-40dc-8716-35b5a6324c22).
+UBI FAQ's - including licensing information can be found [here](https://developers.redhat.com/articles/ubi-faq/?redirect\_fragment=resources#error=login\_required\&state=e8bb7295-2fb7-40dc-8716-35b5a6324c22).
 
 UBI: Images, repositories, and packages details can be found [here](https://access.redhat.com/articles/4238681).
 
 ### **NEW: Expanded scope of Red Hat Container Certification**&#x20;
 
-**‌**Red Hat Partner Connect program has expanded the scope of the Red Hat Container Certification to enable Red Hat technology partners to include Red Hat Enterprise Linux (RHEL) user space packages. This means that when partners build upon UBI base images, partners will be able to use any package from Red Hat Enterprise Linux user space required to run their software (except the kernel) and  re-distribute these certified images through Red Hat or non-Red Hat container registries (e.g. Quay.io, Docker.io, a private registry  etc).
+**‌**Red Hat Partner Connect program has expanded the scope of the Red Hat Container Certification to enable Red Hat technology partners to include Red Hat Enterprise Linux (RHEL) user space packages. This means that when partners build upon UBI base images, partners will be able to use any package from Red Hat Enterprise Linux user space required to run their software (except the kernel) and re-distribute these certified images through Red Hat or non-Red Hat container registries (e.g. Quay.io, Docker.io, a private registry, etc).
 
 **Specific requirements that partners have to meet to take advantage of the expanded scope:**
 
@@ -29,14 +29,14 @@ As required by expanded scope of Container Certification we have updated Contain
 
 Red Hat Container Certification program offers the following two options for the distribution of certified container images:
 
-* **Red Hat Container Registry:** Managed by Red Hat at no cost to partners.  This distribution option is available for container images whether you use UBI or  RHEL7 base image. This option requires compliance with U.S. export control laws. See details in our [Export compliance guide](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/export-compliance)
-* **Non-Red Hat Container Registry:** In this option your can distribute through your organization’s own registry or use any public registry such as Quay.io registry, Docker.io registry etc. This option is only available for container images built with one of the [Universal Base images](https://access.redhat.com/articles/4238681) (ubi, ubi-init, ubi-minimal).&#x20;
+* **Red Hat Container Registry:** Managed by Red Hat at no cost to partners.  This distribution option is available for container images whether you use UBI or RHEL7 base image. This option requires compliance with U.S. export control laws. See details in our [Export compliance guide](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/initial-onboarding/export-compliance)
+* **Non-Red Hat Container Registry:** In this option your can distribute through your organization’s own registry or use any public registry such as Quay.io registry, Docker.io registry etc. This option is only available for container images built with one of the [Universal Base images](https://access.redhat.com/articles/4238681) (ubi, ubi-micro, ubi-init, ubi-minimal).&#x20;
 
 #### **Recommended repository names for container images**
 
 In alignment with Red Hat’s container repo policy it is recommended to explicitly indicate the RHEL version in repo names (like so: -ubi7, -ubi8, rhel7, rhel8). ****&#x20;
 
-&#x20;**Repository name format: <**Container Registry name>/Namespace/Repository
+&#x20;**Repository name format:** \<Container Registry name>/Namespace/Repository
 
 {% hint style="success" %}
 _**Example:**_**   ** quay.io/MyCompany/MyProduct**-ubi7**

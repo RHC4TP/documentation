@@ -14,9 +14,12 @@ As a partner, there are three places where you can contribute an operator, each 
 
 ### Certified Operator Build Guide
 
-We have created another guide that you can find[ here.](https://redhat-connect.gitbook.io/certified-operator-guide/) This guide is designed to take you step by step through the process of creating your operator using the Operator-SDK. There are examples for using both Helm and Ansible as well as more information on deploying a test environment for you to work with while developing your operator
+We have created another guide that you can find[ here.](https://redhat-connect.gitbook.io/certified-operator-guide/) This guide is designed to take you step by step through the process of creating your Operator using the Operator-SDK. There are examples for using both Helm and Ansible as well as more information on deploying a test environment for you to work with while developing your operator
 
 {% hint style="success" %}
 This guide is made for Red Hat Connect and will take you through the process of publishing a Certified Operator to OpenShift OperatorHub.
 {% endhint %}
 
+### Operator Technical Track
+
+The [Operator technical track](https://redhat-connect.gitbook.io/red-hat-technical-tracks/operators) is a set of curated resources to guide you through learning what Operators are, how to develop an Operator, and how to certify and upgrade your Operators.&#x20;

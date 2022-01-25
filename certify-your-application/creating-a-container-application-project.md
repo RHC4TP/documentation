@@ -4,9 +4,9 @@
 Certified container images are delivered to customers through the Red Hat Connect Image Registry to run on a supported Red Hat container platform. Your product and images will be listed in the Red Hat Container Catalog using the listing information you provide. To begin the process to Certify your Application you must first Create a Container Project.‌
 {% endhint %}
 
-Click **PRODUCT CERTIFICATION** at the top of the page and click **Manage projects**
+Click **PRODUCT CERTIFICATION** at the top of the page and click **Manage certification projects**
 
-![](../.gitbook/assets/screen-shot-2021-04-26-at-3.24.58-pm.png)
+![](<../.gitbook/assets/Screen Shot 2022-01-25 at 10.24.43 AM (1).png>)
 
 Click _**Create Project**_&#x20;
 

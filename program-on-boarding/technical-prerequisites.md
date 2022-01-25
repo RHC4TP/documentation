@@ -4,7 +4,7 @@
 
 Certification requires that you verify the functionality of your product on the target Red Hat platform. Through the partner program, Red Hat offers free (also know as Not-for-resale or NFR) subscriptions for products such as Red Hat OpenShift Container Platform. To request software access as a partner, [follow these instructions](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/software-access). Once your access has been approved, you may [download software from the Customer Portal](https://access.redhat.com/downloads/).
 
-The following are requirements for building container images such that they meet the certification criteria. This section includes both Container Application and Operator Images. Although Labels and Licenses are not required to successfully build a container, they are required for Red Hat Certification.&#x20;
+The following are requirements for building container images such that they meet the certification criteria. This section applies to both container application and Operator images. Although labels and licenses are not required to successfully build a container, they are required for Red Hat Certification.&#x20;
 
 ### Licenses Requirements
 
@@ -12,7 +12,7 @@ You need to include any relevant licenses within the `licenses/`directory in you
 
 ### Dockerfile Requirements&#x20;
 
-1. The Base image must be (or must be based on) a supported Red Hat image, such as Red Hat Enterprise Linux or [Red Hat Universal Base Image](https://redhat-connect.gitbook.io/partner-guide-for-red-hat-openshift-and-container/program-on-boarding/containers-with-red-hat-universal-base-image-ubi). Any third party or community supported images such as Ubuntu, Debian, Alpine, CentOS etc are not supported by Red Hat and cannot be certified.
+1. The Base image must be (or must be based on) a supported Red Hat image, such as Red Hat Enterprise Linux or [Red Hat Universal Base Image](containers-with-red-hat-universal-base-image-ubi.md). Any third party or community supported images such as Ubuntu, Debian, Alpine, CentOS etc are not supported by Red Hat and cannot be certified.
 2. The following labels must exist: **name**, **maintainer**, **vendor**, **version**, **release,** **summary & description.**
 
 #### **Example Dockerfile for Container Application:**&#x20;
@@ -72,5 +72,5 @@ An Operator is a method of packaging, deploying and managing a Kubernetes applic
 
 ### Certified Operator Build Guide
 
-We have created another guide that you can find[ here.](https://redhat-connect.gitbook.io/certified-operator-guide/) This guide is designed to take you step by step through the process of creating your operator using the Operator-SDK. There are examples for using both Helm and Ansible as well as more information on deploying a test environment for you to work with while developing your operator
+We have created another guide that you can find[ here.](https://redhat-connect.gitbook.io/certified-operator-guide/) This guide is designed to take you step by step through the process of creating your Operator using the Operator-SDK. There are examples for using both Helm and Ansible, as well as more information on deploying a test environment for you to work with while developing your Operator.
 

@@ -71,7 +71,6 @@ If you need more information, refer to the full Universal Base Image Guide here*
 
 * [**RHEL 8 How To**](https://access.redhat.com/documentation/en-us/red\_hat\_enterprise\_linux/8/html-single/building\_running\_and\_managing\_containers/index?lb\_target=stage#using\_red\_hat\_universal\_base\_images\_standard\_minimal\_and\_runtimes)
 * [**RHEL 7 How To**](https://access.redhat.com/documentation/en-us/red\_hat\_enterprise\_linux\_atomic\_host/7/html-single/getting\_started\_with\_containers/index#using\_red\_hat\_universal\_base\_images\_standard\_minimal\_and\_runtimes)
-* ****[**Adding RHEL packages to UBI**](https://app.gitbook.com/@redhat-connect/s/best-practices-guide/base-image) **(**\*_Please scroll down_**)**
 
 **Dockerfile Requirements:**
 

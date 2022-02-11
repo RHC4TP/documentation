@@ -13,8 +13,8 @@ Before your image gets published you must complete the Certification Checklist. 
 The checklist is separated into the following sections:
 
 * Submit your container for verification
-  * Setup the build service or push your image manually to our inbound testing registry.
-* Complete export control questionnaire \(for container images only\)
+  * Push your image manually to our inbound testing registry.
+* Complete export control questionnaire (for container images only)
   * Red Hat will take care of this step.
 * Accept the Red Hat Container Appendix
   * Site Agreement to the Container Terms.
@@ -22,4 +22,3 @@ The checklist is separated into the following sections:
   * This section relates more to the image/container settings such as Auto Publish feature, registry namespace, release category, supported platforms.
 * Complete your company profile
   * This page is to ensure that your company profile is up to date. Edit if necessary.
-

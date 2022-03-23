@@ -4,19 +4,30 @@ Partners who want to certify a Helm chart must create the corresponding project 
 
 To create a project, you must log into the certified technology portal in [Red Hat Partner Connect](https://connect.redhat.com/login). For more information on registration and access, see the [Program Prerequisites](../../program-on-boarding/prerequisites.md) section.
 
-Once you are logged in, go to the Manage Projects section under the Product Certification menu. 
+**Note :** **It is strongly recommended to have your container image certified before creating your Helm Chart certification project**
 
-![](../../.gitbook/assets/screen-shot-2021-04-26-at-3.24.58-pm.png)
+Once you are logged in, go to the **Manage certification projects** section under the **Product Certification** menu.&#x20;
 
-You will see an option to Create Project. Select Helm Chart as the project type.
+![Product certification Menu](<../../.gitbook/assets/Screenshot 2022-03-22 at 11.08.49.png>)
 
-You will need to provide the following information:
+1 .You will see an option to **Create Project**. Then choose **Red Hat OpenShift** as a Platform
 
-* Project name. This is a name you choose to track the project within the certification service. It is not visible externally.
-* Chart name. The name of your chart, which must follow Helm [naming conventions](https://helm.sh/docs/chart_best_practices/conventions/). 
-* Distribution method. You have two choices:
+![Choose OpenShift platform](<../../.gitbook/assets/Helm cert - Platform choice.png>)
+
+2\. Select **Helm Chart** as the project type
+
+![Choose Helm chart](<../../.gitbook/assets/Helm cert - Helm choice.png>)
+
+3\. You will need to provide the following information:
+
+![Helm chart Certification - Creating project](<../../.gitbook/assets/Helm cert - create project.png>)
+
+* **Project name** **:** This is a name you choose to track the project within the certification service. It is not visible externally.
+* **Chart name :** The name of your chart, which must follow Helm [naming conventions](https://helm.sh/docs/chart\_best\_practices/conventions/).&#x20;
+* **Distribution method :** You have 2 choices:
   * Publish your chart in the Red Hat Helm Chart repository, _charts.openshift.io_. In this case, users will pull your chart from this repository.
   * Publish your chart in your own Helm Chart repository. In this case, an entry will be added to the index at _charts.openshift.io_ with information about the location of your chart.
 
+4\. Once the basic information filled, you will be redirected to the **Project checklist** page, where you can view and edit all the required details for the Certification.
 
-
+![Helm Chart certification - Checklist](<../../.gitbook/assets/Helm cert - Checklist.png>)

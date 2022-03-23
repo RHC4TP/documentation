@@ -12,13 +12,13 @@ Click _**Create Project**_&#x20;
 
 ![](../.gitbook/assets/screen-shot-2021-04-26-at-3.31.41-pm.png)
 
-Select _Linux Containers_ in the modal then click **NEXT**.
+Select _Red Hat OpenShift_ in the modal then click **NEXT**.
 
-![](../.gitbook/assets/screen-shot-2021-07-07-at-10.54.33-am.png)
+![](../.gitbook/assets/container1.png)
 
-Select _Container image_ in the modal then click **NEXT.**‌
+Select _Container image_ in the modal then click **NEXT.**
 
-![](../.gitbook/assets/screen-shot-2021-07-07-at-10.55.24-am.png)
+![](../.gitbook/assets/container2.png)
 
 Provide the required information to create your project.
 

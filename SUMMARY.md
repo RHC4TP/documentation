@@ -38,6 +38,7 @@
   * [Running the Helm Chart verification tool](helm-chart-certification/verifying-your-helm-chart/running-the-helm-chart-verification-tool.md)
 * [Creating a Helm Chart Certification Project](helm-chart-certification/creating-a-helm-chart-certification-project/README.md)
   * [Helm Chart Certification Project Settings](helm-chart-certification/creating-a-helm-chart-certification-project/helm-chart-certification-project-settings.md)
+  * [Create a Helm Chart Product](helm-chart-certification/creating-a-helm-chart-certification-project/create-a-helm-chart-product.md)
 * [Submitting your Helm Chart for certification](helm-chart-certification/submitting-your-helm-chart-for-certification/README.md)
   * [Setting up your environment](helm-chart-certification/submitting-your-helm-chart-for-certification/setting-up-your-environment.md)
   * [Certification Service Options](helm-chart-certification/submitting-your-helm-chart-for-certification/certification-service-options.md)

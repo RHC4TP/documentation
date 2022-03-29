@@ -1,6 +1,6 @@
 # Publishing your Helm Chart
 
-Once your Helm Chart is certified and validated by the Pull Request, you can go to your Product settings.
+Once your Helm Chart is certified and validated by the Pull Request, you can go to your **Product settings**.
 
 You will then have to make sure your Helm Project certification and the related Container image certification are added to the product.
 

@@ -2,4 +2,4 @@
 
 Once you have completed certification you can continue to other IBM Programs Offerings such as Red Hat Marketplace and IBM Cloud Paks. More information can be found here: [IBM Partner Programs](../program-on-boarding/ibm-partner-programs.md).&#x20;
 
-You can also request the official Certified Logo: [Using our Logos](https://redhat-connect.gitbook.io/red-hat-partner-connect-general-guide/benefits/using-red-hat-logos).&#x20;
+You can also request the official certified marketing materials, including logos. Please reach out to epm@redhat.com to request.

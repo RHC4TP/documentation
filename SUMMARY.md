@@ -12,24 +12,13 @@
 
 ## Container Certification <a href="#certify-your-application" id="certify-your-application"></a>
 
-* [Creating a container application project](certify-your-application/creating-a-container-application-project.md)
-* [The Certification Checklist](certify-your-application/the-certification-checklist.md)
-* [Scanning Images to be published in registry.connect.redhat.com](certify-your-application/image-upload.md)
-* [Scanning Images to be published in Third Party Registries](certify-your-application/remote-scan.md)
-* [Image Scanning & Verification](certify-your-application/image-scan-and-verification.md)
+* [Overview](certify-your-application/overview.md)
 
-## Products Managed by Operators <a href="#certify-your-operator" id="certify-your-operator"></a>
+## Operator Certification <a href="#certify-your-operator" id="certify-your-operator"></a>
 
-* [Certify your Operator Image](certify-your-operator/creating-an-operator-project/README.md)
-  * [Creating Container Project](certify-your-operator/creating-an-operator-project/creating-container-project.md)
-  * [The Certification Checklist](certify-your-operator/creating-an-operator-project/the-certification-checklist.md)
-  * [Uploading your Operator Image](certify-your-operator/creating-an-operator-project/image-upload.md)
-  * [Image Scanning and Verification](certify-your-operator/creating-an-operator-project/image-scan-and-verification-results.md)
-* [Certify your Operator Bundle](certify-your-operator/certify-your-operator-bundle-image/README.md)
-  * [Operator Bundle Image Documentation](certify-your-operator/certify-your-operator-bundle-image/creating-operator-bundle-image-project.md)
-* [Upgrading your Operator](certify-your-operator/upgrading-your-operator.md)
+* [Overview](certify-your-operator/overview.md)
 
-## Products Managed by Helm Charts <a href="#helm-chart-certification" id="helm-chart-certification"></a>
+## Helm Chart Certification
 
 * [Overview](helm-chart-certification/overview.md)
 * [Helm Chart Requirements](helm-chart-certification/helm-chart-requirements.md)
@@ -47,7 +36,7 @@
 
 ## APPENDIX
 
-* [Maintaining image grades](appendix/maintaining-image-grades.md)
+* [Container Image Vulnerability Grades](appendix/vulnerabilitly-grades.md)
 * [Next Steps](appendix/next-steps.md)
 * [Connect Portal API](appendix/connect-portal-api/README.md)
   * [Project Creation](appendix/connect-portal-api/project-creation.md)

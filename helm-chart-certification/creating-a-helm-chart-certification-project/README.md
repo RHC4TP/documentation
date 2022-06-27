@@ -28,6 +28,10 @@ Once you are logged in, go to the **Manage certification projects** section unde
   * Publish your chart in the Red Hat Helm Chart repository, _charts.openshift.io_. In this case, users will pull your chart from this repository.
   * Publish your chart in your own Helm Chart repository. In this case, an entry will be added to the index at _charts.openshift.io_ with information about the location of your chart.
 
+{% hint style="info" %}
+If you want your Helm Chart to be **only** published on our [Ecosystem catalog](https://catalog.redhat.com/), please contact us by opening a ticket with [TPSD](https://connect.redhat.com/support/technology-partner/#/case/list)
+{% endhint %}
+
 4\. Once the basic information filled, you will be redirected to the **Project checklist** page, where you can view and edit all the required details for the Certification.
 
 ![Helm Chart certification - Checklist](<../../.gitbook/assets/Helm cert - Checklist.png>)

@@ -1,6 +1,6 @@
 # Certification Workflow
 
-This guide will go through the Certification Process for the Red Hat OpenShift and Containers in Red Hat Connect. There are 2 options for certification on Red Hat OpenShift:&#x20;
+This guide will go through the Certification Process for the Red Hat OpenShift and Containers in Red Hat Connect. There are 3 options for certification on Red Hat OpenShift:&#x20;
 
 1. Standalone containerized application
 2. Application deployed with a Helm chart

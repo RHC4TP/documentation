@@ -36,3 +36,7 @@ If you want your Helm Chart to be **only** published on our [Ecosystem catalog](
 4\. Once the basic information filled, you will be redirected to the **Project checklist** page, where you can view and edit all the required details for the Certification.
 
 ![Helm Chart certification - Checklist](<../../.gitbook/assets/Screenshot 2022-08-04 at 15.23.50.png>)
+
+{% hint style="info" %}
+If you have selected **CNF** during the project creation, you will need to validate the functionality of your CNF through this [specific workflow](https://redhat-connect.gitbook.io/openshift-badges/badges/cloud-native-network-functions-cnf). To begin the process, click on the button **Start** in the specific CNF checklist item.
+{% endhint %}

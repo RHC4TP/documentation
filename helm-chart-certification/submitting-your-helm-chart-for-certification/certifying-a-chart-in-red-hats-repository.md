@@ -21,7 +21,7 @@ Finally, you need submit a **pull request (PR)** to request the certification re
 
 **If the pull request is successful, your Helm chart will be certified.**&#x20;
 
-If you have allowed publishing in our repository, the chart will be available through the **official repository URL**: [https://charts.openshift.io](https://charts.openshift.io) .&#x20;
+If you have allowed publishing in our repository, the chart will be available through the **official repository URL**: [https://charts.openshift.io](https://charts.openshift.io/) .&#x20;
 
 You can follow the instructions given there to install it in your OpenShift cluster.
 

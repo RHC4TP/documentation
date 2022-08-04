@@ -20,10 +20,11 @@ Once you are logged in, go to the **Manage certification projects** section unde
 
 3\. You will need to provide the following information:
 
-![Helm chart Certification - Creating project](<../../.gitbook/assets/Helm cert - create project.png>)
+![Helm chart Certification - Creating project](<../../.gitbook/assets/Screenshot 2022-08-04 at 15.01.41.png>)
 
 * **Project name** **:** This is a name you choose to track the project within the certification service. It is not visible externally.
 * **Chart name :** The name of your chart, which must follow Helm [naming conventions](https://helm.sh/docs/chart\_best\_practices/conventions/).&#x20;
+* **Specialised Certification :** Select this option if you want to certify a **CNF** (Cloud Native Network Function) Helm Chart
 * **Distribution method :** You have 2 choices:
   * Publish your chart in the Red Hat Helm Chart repository, _charts.openshift.io_. In this case, users will pull your chart from this repository.
   * Publish your chart in your own Helm Chart repository. In this case, an entry will be added to the index at _charts.openshift.io_ with information about the location of your chart.
@@ -34,4 +35,4 @@ If you want your Helm Chart to be **only** published on our [Ecosystem catalog](
 
 4\. Once the basic information filled, you will be redirected to the **Project checklist** page, where you can view and edit all the required details for the Certification.
 
-![Helm Chart certification - Checklist](<../../.gitbook/assets/Helm cert - Checklist.png>)
+![Helm Chart certification - Checklist](<../../.gitbook/assets/Screenshot 2022-08-04 at 15.23.50.png>)

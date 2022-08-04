@@ -46,7 +46,7 @@ RUN "ANY OTHER INSTRUCTIONS HERE"
 See our [workflow documentation](https://access.redhat.com/documentation/en-us/red\_hat\_openshift\_certification/4.9/html/red\_hat\_openshift\_software\_certification\_workflow\_guide/con\_operator-certification\_openshift-sw-cert-workflow-complete-pre-certification-checklist-for-containers).
 
 {% hint style="info" %}
-**Note:** We suggest using the [Operator SDK ](https://sdk.operatorframework.io)to build your Kubernetes Operator for certification.
+**Note:** We suggest using the [Operator SDK ](https://sdk.operatorframework.io/)to build your Kubernetes Operator for certification.
 {% endhint %}
 
 ###

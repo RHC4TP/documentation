@@ -21,7 +21,7 @@ Once you are logged in, go to the **Manage certification projects** section unde
 3\. You will need to provide the following information:
 
 {% hint style="danger" %}
-The following information cannot be changed once selected. Read the descriptions carefully; or if you have any question please go to: Get Help
+The following information cannot be changed once selected.&#x20;
 {% endhint %}
 
 ![Helm chart Certification - Creating project](<../../.gitbook/assets/Screenshot 2022-08-04 at 15.01.41.png>)
